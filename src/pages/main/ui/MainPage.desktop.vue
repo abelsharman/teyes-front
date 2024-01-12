@@ -9,6 +9,7 @@
         <Benefits class="desktop-wrapper" />
       </div>
       <Services class="mb-11 mt-8" />
+      <Contacts class="w-full" />
       <Questions />
     </main>
     <div class="bg-black-1 py-12">
@@ -28,6 +29,7 @@ import MainPageDescription from "./components/MainPageDescription.desktop.vue";
 import Benefits from "./components/Benefits.vue";
 import Services from "./components/Services.vue";
 import Questions from "./components/Questions.vue";
+import Contacts from './components/Contacts.vue';
 
 export default {
   name: "MainPage",
@@ -38,6 +40,7 @@ export default {
     Benefits,
     Services,
     Questions,
+    Contacts
   },
   setup() {
     const modal = injectModal();
