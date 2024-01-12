@@ -9,6 +9,9 @@
         <Benefits class="desktop-wrapper" />
       </div>
       <Services class="mb-11 mt-8" />
+      <div class="bg-gray-2 pt-8 pb-20">
+        <Products class="desktop-wrapper" />
+      </div>
       <Works class="my-14 desktop-wrapper" />
       <Contacts class="w-full" />
       <Questions />
@@ -32,6 +35,7 @@ import Services from "./components/Services.vue";
 import Questions from "./components/Questions.vue";
 import Contacts from './components/Contacts.vue';
 import Works from './components/Works.vue';
+import Products from './components/Products.desktop.vue'
 
 export default {
   name: "MainPage",
@@ -43,7 +47,8 @@ export default {
     Services,
     Questions,
     Contacts,
-    Works
+    Works,
+    Products
   },
   setup() {
     const modal = injectModal();
