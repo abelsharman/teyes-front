@@ -1,14 +1,15 @@
 <template>
   <div>
-    <div style="box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.03);" >
+    <div style="box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.03)">
       <VHeader class="desktop-wrapper" />
     </div>
     <main>
       <MainPageDescription class="desktop-wrapper mt-12 mb-24" />
       <div class="bg-gray-2 pt-8 pb-24">
         <Benefits class="desktop-wrapper" />
-      </div>  
+      </div>
       <Services class="mb-11 mt-8" />
+      <Questions />
     </main>
     <div class="bg-black-1 py-12">
       <VFooter class="desktop-wrapper" />
@@ -17,15 +18,16 @@
 </template>
 
 <script>
-import { _axios } from '@shared/libs';
-import { AppModal } from '@/shared/ui';
-import { injectModal } from '@/shared/modal'
+import { _axios } from "@shared/libs";
+import { AppModal } from "@/shared/ui";
+import { injectModal } from "@/shared/modal";
 
-import VHeader from './components/VHeader.desktop.vue';
-import VFooter from './components/VFooter.desktop.vue'
-import MainPageDescription from './components/MainPageDescription.desktop.vue';
-import Benefits from './components/Benefits.vue';
-import Services from './components/Services.vue'
+import VHeader from "./components/VHeader.desktop.vue";
+import VFooter from "./components/VFooter.desktop.vue";
+import MainPageDescription from "./components/MainPageDescription.desktop.vue";
+import Benefits from "./components/Benefits.vue";
+import Services from "./components/Services.vue";
+import Questions from "./components/Questions.vue";
 
 export default {
   name: "MainPage",
@@ -34,13 +36,14 @@ export default {
     VFooter,
     MainPageDescription,
     Benefits,
-    Services
+    Services,
+    Questions,
   },
   setup() {
     const modal = injectModal();
     return {
-      modal
-    }
+      modal,
+    };
   },
 };
 </script>
