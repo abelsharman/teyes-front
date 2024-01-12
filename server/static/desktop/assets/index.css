@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;.z-modal{z-index:9999}.z-upper-modal{z-index:99999}.invisible-scrollbar::-webkit-scrollbar{display:none}.tap-highlight-color-none{-webkit-tap-highlight-color:transparent}button{@apply tap-highlight-color-none;}

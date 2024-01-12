@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.z-modal {
+  z-index: 9999;
+}
+
+.z-upper-modal {
+  z-index: 99999;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.tap-highlight-color-none {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  @apply tap-highlight-color-none;
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  margin: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e7d6d6; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(151, 144, 144); 
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
