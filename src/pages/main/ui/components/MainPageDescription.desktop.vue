@@ -2,7 +2,7 @@
   <div class="flex justify-between">
     <div class="w-5/12">
       <h1 class="text-gray-1 text-6xl font-bold mb-4">
-        АВТОМАГНИТОЛЫ <span class="text-red-1">В КАЗАХСТАНЕ</span>
+        АВТОМАГНИТОЛЫ В<span class="text-red-1"> КАЗАХСТАНЕ</span>
       </h1>
       <p class="text-lg text-gray-1 text-opacity-80 mb-8">
         Интернет-магазин "Auto-Dom" с 2010 года предлагает более 5 000
