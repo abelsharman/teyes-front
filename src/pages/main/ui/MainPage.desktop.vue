@@ -8,6 +8,7 @@
       <div class="bg-gray-2 pt-8 pb-24">
         <Benefits class="desktop-wrapper" />
       </div>  
+      <Services class="mb-11 mt-8" />
     </main>
     <div class="bg-black-1 py-12">
       <VFooter class="desktop-wrapper" />
@@ -24,6 +25,7 @@ import VHeader from './components/VHeader.desktop.vue';
 import VFooter from './components/VFooter.desktop.vue'
 import MainPageDescription from './components/MainPageDescription.desktop.vue';
 import Benefits from './components/Benefits.vue';
+import Services from './components/Services.vue'
 
 export default {
   name: "MainPage",
@@ -31,7 +33,8 @@ export default {
     VHeader,
     VFooter,
     MainPageDescription,
-    Benefits
+    Benefits,
+    Services
   },
   setup() {
     const modal = injectModal();
