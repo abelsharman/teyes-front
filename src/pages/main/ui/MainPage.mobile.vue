@@ -1,26 +1,21 @@
 <template>
-  <main>
-  </main>
+  <div>
+    <!-- <VHeader /> -->
+    <main></main>
+    <div class="bg-black-1 pb-12 pt-10 pl-4">
+      <VFooter />
+    </div>
+  </div>
 </template>
 
 <script>
-import { _axios } from '@shared/libs';
-import { AppModal } from '@/shared/ui';
-import { injectModal } from '@/shared/modal'
+import { VHeader, VFooter } from "@shared/ui/index.mobile";
 
 export default {
   name: "MainPage",
   components: {
-  },
-  setup() {
-    const modal = injectModal();
-    return {
-      modal
-    }
-  },
-  data() {
-    return {
-    }
+    VHeader,
+    VFooter,
   },
 };
 </script>

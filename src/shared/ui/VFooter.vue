@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between text-white">
+  <div class="md:flex space-y-7 md:space-y-0 justify-between text-white">
     <img
       src="../assets/logo.png"
       class="w-[200px] h-10"
@@ -7,7 +7,7 @@
       height="40"
       alt="логотип"
     />
-    <div>
+    <div class="md:block hidden">
       <p class="mb-4 font-medium text-[20px]">Главная</p>
       <div class="space-y-2 text-base">
         <p>Почему мы?</p>
