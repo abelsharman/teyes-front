@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <VHeader /> -->
-    <main>
+    <VHeader class="fixed top-0 left-0 w-full z-20" />
+    <main class="mt-[55px]">
       <MainPageDescription class="mt-7 mb-10 px-4" />
       <Benefits class="bg-gray-2 pt-6 pb-10" />
       <Services class="mt-6 mb-10 pl-10 pr-7" />
