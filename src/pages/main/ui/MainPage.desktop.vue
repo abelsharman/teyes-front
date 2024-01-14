@@ -57,10 +57,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.desktop-wrapper {
-  @apply mx-auto;
-  width: 1200px;
-}
-</style>
