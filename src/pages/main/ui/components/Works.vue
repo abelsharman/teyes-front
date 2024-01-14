@@ -1,10 +1,10 @@
 <template>
   <div>
-    <p class="text-center text-gray-1 text-[40px] font-bold mb-12">
+    <p class="text-center text-gray-1 md:text-[40px] text-3xl font-bold md:mb-12 mb-8">
       Наши работы
     </p>
     <Carousel :autoplay="2000" :wrap-around="true">
-      <Slide v-for="slide in 30" :key="slide">
+      <Slide v-for="slide in 10" :key="slide">
         <div class="carousel__item">
             <img src="../assets/test-work.png" alt="">
         </div>

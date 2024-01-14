@@ -1,9 +1,9 @@
 <template>
   <div>
-    <p class="text-center text-gray-1 font-bold text-[40px] mb-8">
+    <p class="text-center text-gray-1 font-bold md:text-[40px] text-3xl md:mb-8 mb-6">
       Наши услуги
     </p>
-    <div class="grid grid-cols-4 gap-5 w-max mx-auto">
+    <div class="grid md:grid-cols-4 gap-5 w-max mx-auto">
       <div v-for="i in 8" :key="i" class="duration-200 hover:scale-105">
         <div class="bg-gray-2 text-gray-1 rounded-lg pt-6 pl-8 w-[309px] pb-9">
           <p class="mb-6 text-2xl font-bold w-10/12">Установка автомагнитолы</p>

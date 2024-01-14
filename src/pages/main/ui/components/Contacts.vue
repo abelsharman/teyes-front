@@ -1,8 +1,8 @@
 <template>
-  <div class="grid grid-cols-2">
-    <div class="pt-24 contacts-info pb-36 text-gray-1">
-      <p class="text-5xl font-bold mb-12">Контакты</p>
-      <div class="flex text-lg space-x-6 mb-10">
+  <div class="md:grid grid-cols-2">
+    <div class="md:pt-24 pt-6 px-4 md:px-0 md:pb-36 mb-6 text-gray-1" :class="blockClass">
+      <p class="md:text-5xl text-3xl font-bold text-center md:text-left md:mb-12 mb-10">Контакты</p>
+      <div class="flex text-lg md:space-x-6 space-x-4 mb-8 md:mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -24,7 +24,7 @@
           <a href="tel:+77753401682" class="mt-1">+7 (775) 34 01 682</a>
         </div>
       </div>
-      <div class="flex space-x-6 mb-12 text-lg">
+      <div class="flex md:space-x-6 space-x-4 mb-8 md:mb-12 text-lg">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -39,8 +39,9 @@
         </svg>
         <p>г. Алматы, ул. Тургут озала 260/1</p>
       </div>
-      <div class="flex space-x-6 text-lg">
+      <div class="flex md:space-x-6 space-x-4 text-lg">
         <svg
+          class="w-6 h-6 min-w-6"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -59,9 +60,20 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Contacts',
+  props: {
+    blockClass: {
+      type: String, 
+      default: 'contacts-info'
+    }
+  }
+}
+</script>
+
 <style>
 .contacts-info {
-    padding-left: calc((100vw - 1200px) / 2);
+    padding-left: calc((100vw - 1200px) / 2) !important;
 }
-
 </style>

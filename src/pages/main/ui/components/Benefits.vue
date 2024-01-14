@@ -1,9 +1,9 @@
 <template>
   <div>
-    <p class="mb-8 text-center text-gray-1 font-bold text-[40px]">
+    <p class="mb-8 text-center text-gray-1 font-bold md:text-[40px] text-3xl">
       Почему мы?
     </p>
-    <div class="flex space-x-12 w-max mx-auto">
+    <div class="flex md:space-x-12 justify-center md:justify-normal md:items-start items-center md:w-max w-full flex-col md:flex-row md:mx-auto">
       <div class="space-y-6 w-[280px] hover:bg-gray-3 rounded-xl py-3 px-4 duration-200 flex items-center flex-col">
         <svg
           xmlns="http://www.w3.org/2000/svg"
