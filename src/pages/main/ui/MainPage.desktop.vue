@@ -27,8 +27,7 @@ import { _axios } from "@shared/libs";
 import { AppModal } from "@/shared/ui";
 import { injectModal } from "@/shared/modal";
 
-import VHeader from "./components/VHeader.desktop.vue";
-import VFooter from "./components/VFooter.desktop.vue";
+import { VHeader, VFooter } from "@shared/ui/index.desktop";
 import MainPageDescription from "./components/MainPageDescription.desktop.vue";
 import Benefits from "./components/Benefits.vue";
 import Services from "./components/Services.vue";
