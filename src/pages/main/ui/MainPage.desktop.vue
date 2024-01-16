@@ -24,8 +24,6 @@
 
 <script>
 import { _axios } from "@shared/libs";
-import { AppModal } from "@/shared/ui";
-import { injectModal } from "@/shared/modal";
 
 import { VHeader, VFooter } from "@shared/ui/index.desktop";
 import MainPageDescription from "./components/MainPageDescription.desktop.vue";
@@ -48,12 +46,6 @@ export default {
     Contacts,
     Works,
     Products
-  },
-  setup() {
-    const modal = injectModal();
-    return {
-      modal,
-    };
   },
 };
 </script>
