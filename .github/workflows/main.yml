@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           source: "server,public,src,index.html,package-json,vite.config.ts,tailwind.config.js,postcss.config.js"
-          target: "/var/www/html/teyes-front"
+          target: "/var/www/front/teyes-front"
       
       - name: Connect to server
         uses: appleboy/ssh-action@master
@@ -42,7 +42,7 @@ jobs:
           script: |
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
-            cd /var/www/html/teyes-front
+            cd /var/www/front/teyes-front
             npm install
             npm run build-only:production
             cd server/
