@@ -18,25 +18,21 @@ jobs:
           node-version: 16.17.0  
       - name: Git clone my repo
         uses: actions/checkout@v1
-        
-      - name: Install node_modules
-        run: npm i
 
       - name: List files
         run: ls -la
-
-      - name: Build the project
-        run: npm run build-only:production
-
-      - name: List files
-        run: ls -la
-
-      - name: Send all materials
-        uses: appleboy/scp-action@master
+      
+      - name: Connect to server
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          source: server
-          target: ${{ secrets.TARGET }}
+          script: |
+            cd /var/www/html/teyes-front
+            git pull
+            npm install
+            npm run build-only:production
+            cd server/
+            pm2 restart TeyesFront.js
