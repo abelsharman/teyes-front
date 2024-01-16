@@ -38,5 +38,5 @@ jobs:
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          source: ${{ secrets.SOURCE }}
+          source: server
           target: ${{ secrets.TARGET }}
