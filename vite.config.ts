@@ -54,7 +54,7 @@ export default defineConfig(({ mode }) => {
         }
       }
     },
-    base: `https://sale-med.abelsharman.kz/${APP_NAME}/`,
+    base: `http://89.46.33.69/${APP_NAME}/`,
     plugins: [
       vue({
         script: {
