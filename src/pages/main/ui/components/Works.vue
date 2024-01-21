@@ -1,12 +1,18 @@
 <template>
   <div>
-    <p class="text-center text-gray-1 md:text-[40px] text-3xl font-bold md:mb-12 mb-8">
+    <p
+      class="text-center text-gray-1 md:text-[40px] text-3xl font-bold md:mb-12 mb-8"
+    >
       Наши работы
     </p>
-    <Carousel :autoplay="2000" :wrap-around="true">
-      <Slide v-for="slide in 10" :key="slide">
+    <div
+      v-if="isLoading"
+      class="w-full md:h-[558px] h-[246px] animate-pulse bg-gray-100 rounded-xl"
+    ></div>
+    <Carousel v-else :autoplay="2000" :wrap-around="true">
+      <Slide v-for="work in works" :key="work.slug">
         <div class="carousel__item">
-            <img src="../assets/test-work.png" alt="">
+          <img class="md:h-[558px] h-[246px]" :src="work.image" alt="" />
         </div>
       </Slide>
 
@@ -32,39 +38,50 @@ export default defineComponent({
     Slide,
     Pagination,
   },
+  data() {
+    return {
+      isLoading: true,
+      works: [],
+    };
+  },
   created() {
     this.fetchWorks();
   },
   methods: {
     fetchWorks() {
-      _axios('our-works', { headers: {
-        'Access-Control-Allow-Origin' : '*',
-        'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-        'Access-Control-Allow-Credentials':true
-
-      } }).then(data => {
-        console.log(data);
+      this.isLoading = true;
+      _axios("our-works", {
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+          "Access-Control-Allow-Credentials": true,
+        },
       })
-    }
-  }
+        .then(({ data }) => {
+          this.works = data;
+        })
+        .finally(() => {
+          this.isLoading = false;
+        });
+    },
+  },
 });
 </script>
 
-
 <style>
-.carousel__pagination-button::after{
-    border-radius: 10px;
-    background: rgba(213, 46, 56, 0.74);
-    width: 8px;
-    height: 8px;
-    @apply duration-200;
+.carousel__pagination-button::after {
+  border-radius: 10px;
+  background: rgba(213, 46, 56, 0.74);
+  width: 8px;
+  height: 8px;
+  @apply duration-200;
 }
-.carousel__pagination-button:hover::after{
-    background: #D52E38;
-}   
+.carousel__pagination-button:hover::after {
+  background: #d52e38;
+}
 .carousel__pagination-button--active::after {
-    background: #D52E38;
-    width: 21px;
-    @apply duration-200;
+  background: #d52e38;
+  width: 21px;
+  @apply duration-200;
 }
 </style>
