@@ -35,8 +35,6 @@
 </template>
 
 <script>
-import { _axios } from "@shared/libs";
-
 import { VHeader, VFooter } from "@shared/ui/index.desktop";
 
 export default {

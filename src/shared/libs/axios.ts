@@ -2,7 +2,7 @@
 import axios from "axios";
 
 let config = {
-  baseURL: process.env.NODE_ENV === 'production' ? 'https://sale-med.abelsharman.kz/api/' : 'http://localhost:9013/api/'
+  baseURL: 'http://89.46.33.69/api/',
   // timeout: 60 * 1000, // Timeout
   // withCredentials: true, // Check cross-site Access-Control
 };

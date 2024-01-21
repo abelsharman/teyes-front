@@ -23,6 +23,8 @@ import { Carousel, Pagination, Slide } from "vue3-carousel";
 
 import "vue3-carousel/dist/carousel.css";
 
+import { _axios } from "@shared/libs";
+
 export default defineComponent({
   name: "Works",
   components: {
@@ -30,6 +32,21 @@ export default defineComponent({
     Slide,
     Pagination,
   },
+  created() {
+    this.fetchWorks();
+  },
+  methods: {
+    fetchWorks() {
+      _axios('our-works', { headers: {
+        'Access-Control-Allow-Origin' : '*',
+        'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+        'Access-Control-Allow-Credentials':true
+
+      } }).then(data => {
+        console.log(data);
+      })
+    }
+  }
 });
 </script>
 

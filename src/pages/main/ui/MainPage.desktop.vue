@@ -23,8 +23,6 @@
 </template>
 
 <script>
-import { _axios } from "@shared/libs";
-
 import { VHeader, VFooter } from "@shared/ui/index.desktop";
 import MainPageDescription from "./components/MainPageDescription.desktop.vue";
 import Benefits from "./components/Benefits.vue";
