@@ -17,16 +17,46 @@
       </button>
     </div>
     <div
-      class="h-[calc(100vh-46px)] pt-6 bg-gray-2 w-full fixed top-[46px] duration-200 px-4"
+      class="h-[calc(100vh-46px)] pt-6 bg-gray-2 w-full fixed top-[46px] duration-46 px-4"
       :class="isHeaderVisible ? 'left-0 opacity-100' : '-left-full opacity-0'"
     >
-      <div class="space-y-6 text-gray-1 text-[20px] font-medium">
-        <p>Главная</p>
-        <p>Почему мы?</p>
-        <p>Наши услуги</p>
-        <p>Товары</p>
-        <p>Наши работы</p>
-        <p>Контакты</p>
+      <div class="space-y-6 flex flex-col text-gray-1 text-[20px] font-medium">
+        <router-link
+          to="/"
+          v-scroll-to="{ el: '#main', offset: -46 }"
+          @click="setIsHeaderVisible"
+          >Главная</router-link
+        >
+        <router-link
+          to="/"
+          v-scroll-to="{ el: '#why-we', offset: -46 }"
+          @click="setIsHeaderVisible"
+          >Почему мы?</router-link
+        >
+        <router-link
+          to="/"
+          v-scroll-to="{ el: '#services', offset: -46 }"
+          @click="setIsHeaderVisible"
+          >Наши услуги</router-link
+        >
+        <router-link
+          to="/"
+          v-scroll-to="{ el: '#products', offset: -46 }"
+          @click="setIsHeaderVisible"
+          >Товары</router-link
+        >
+        <router-link
+          to="/"
+          v-scroll-to="{ el: '#works', offset: -46 }"
+          @click="setIsHeaderVisible"
+          >Наши работы</router-link
+        >
+        <router-link
+          to="/"
+          v-scroll-to="{ el: '#contacts', offset: -46 }"
+          @click="setIsHeaderVisible"
+          >Контакты</router-link
+        >
       </div>
       <div class="space-y-7 mt-7 text-sm text-gray-1 text-opacity-70">
         <div class="flex space-x-2">
@@ -97,7 +127,7 @@
 
       <button
         type="button"
-        class="py-3 w-full mt-12 rounded-lg text-lg font-semibold text-white bg-red-1 leading-8 hover:bg-red-2 duration-200"
+        class="py-3 w-full mt-12 rounded-lg text-lg font-semibold text-white bg-red-1 leading-8 hover:bg-red-2 duration-46"
       >
         Написать в WhatsApp
       </button>
@@ -106,16 +136,17 @@
 </template>
 
 <script setup>
+import VueScrollTo from "vue-scrollto";
 import { ref } from "vue";
 
 const isHeaderVisible = ref(false);
 
 const setIsHeaderVisible = () => {
   isHeaderVisible.value = !isHeaderVisible.value;
-  if(isHeaderVisible.value) {
-    document.body.classList.add('overflow-hidden');
+  if (isHeaderVisible.value) {
+    document.body.classList.add("overflow-hidden");
   } else {
-    document.body.classList.remove('overflow-hidden');
+    document.body.classList.remove("overflow-hidden");
   }
 };
 </script>

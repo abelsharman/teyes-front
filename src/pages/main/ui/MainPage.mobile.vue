@@ -2,12 +2,12 @@
   <div>
     <VHeader class="fixed top-0 left-0 w-full z-20" />
     <main class="mt-[55px]">
-      <MainPageDescription class="mt-7 mb-10 px-4" />
-      <Benefits class="bg-gray-2 pt-6 pb-10" />
-      <Services class="mt-6 mb-10 pl-10 pr-7" />
-      <Products class="bg-gray-2 pt-6 pb-10" />
-      <Works class="my-8 px-4" />
-      <Contacts :block-class="''" />
+      <MainPageDescription id="main" class="mt-7 mb-10 px-4" />
+      <Benefits id="why-we" class="bg-gray-2 pt-6 pb-10" />
+      <Services id="services" class="mt-6 mb-10 pl-10 pr-7" />
+      <Products id="products" class="bg-gray-2 pt-6 pb-10" />
+      <Works id="works" class="my-8 px-4" />
+      <Contacts id="contacts" :block-class="''" />
       <Questions :block-class="''" />
     </main>
     <div class="bg-black-1 pb-12 pt-10 pl-4">

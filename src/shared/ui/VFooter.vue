@@ -1,19 +1,21 @@
 <template>
   <div class="md:flex space-y-7 md:space-y-0 justify-between text-white">
-    <img
-      src="../assets/logo.png"
-      class="w-[200px] h-10"
-      width="200"
-      height="40"
-      alt="логотип"
-    />
+    <a href="/"
+      ><img
+        src="../assets/logo.png"
+        class="w-[200px] h-10"
+        width="200"
+        height="40"
+        alt="логотип"
+      />
+    </a>
     <div class="md:block hidden">
-      <p class="mb-4 font-medium text-[20px]">Главная</p>
-      <div class="space-y-2 text-base">
-        <p>Почему мы?</p>
-        <p>Наши услуги</p>
-        <p>Товары</p>
-        <p>Наши работы</p>
+      <a href="/" class="mb-4 block font-medium text-[20px]">Главная</a>
+      <div class="space-y-2 text-base flex flex-col">
+        <router-link to="/" v-scroll-to="'#why-we'">Почему мы?</router-link>
+        <router-link to="/" v-scroll-to="'#services'">Наши услуги</router-link>
+        <router-link to="/" v-scroll-to="'#products'">Товары</router-link>
+        <router-link to="/" v-scroll-to="'#works'">Наши работы</router-link>
       </div>
     </div>
 
@@ -98,3 +100,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import VueScrollTo from "vue-scrollto";
+
+export default {
+  name: "VFooter",
+  directives: {
+    VueScrollTo,
+  },
+};
+</script>

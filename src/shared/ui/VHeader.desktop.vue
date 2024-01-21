@@ -79,12 +79,12 @@
       <div
         class="flex items-center space-x-10 text-gray-1 text-base font-medium"
       >
-        <p>Главная</p>
-        <p>Почему мы?</p>
-        <p>Наши услуги</p>
-        <p>Товары</p>
-        <p>Наши работы</p>
-        <p>Контакты</p>
+        <router-link to="/" v-scroll-to="'#main'">Главная</router-link>
+        <router-link to="/" v-scroll-to="'#why-we'">Почему мы?</router-link>
+        <router-link to="/" v-scroll-to="'#services'">Наши услуги</router-link>
+        <router-link to="/" v-scroll-to="'#products'">Товары</router-link>
+        <router-link to="/" v-scroll-to="'#works'">Наши работы</router-link>
+        <router-link to="/" v-scroll-to="'#contacts'">Контакты</router-link>
       </div>
       <button
         type="button"
@@ -95,3 +95,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import VueScrollTo from 'vue-scrollto';
+
+export default {
+  name: 'VHeader',
+  directives: {
+    VueScrollTo
+  }
+}
+</script>

@@ -4,16 +4,16 @@
       <VHeader class="desktop-wrapper" />
     </div>
     <main>
-      <MainPageDescription class="desktop-wrapper mt-12 mb-24" />
-      <div class="bg-gray-2 pt-8 pb-24">
+      <MainPageDescription id="main" class="desktop-wrapper mt-12 mb-24" />
+      <div id="why-we" class="bg-gray-2 pt-8 pb-24">
         <Benefits class="desktop-wrapper" />
       </div>
-      <Services class="mb-11 mt-8" />
-      <div class="bg-gray-2 pt-8 pb-20">
+      <Services id="services" class="mb-11 mt-8" />
+      <div id="products" class="bg-gray-2 pt-8 pb-20">
         <Products class="desktop-wrapper" />
       </div>
-      <Works class="my-14 desktop-wrapper" />
-      <Contacts class="w-full" />
+      <Works id="works" class="my-14 desktop-wrapper" />
+      <Contacts id="contacts" class="w-full" />
       <Questions />
     </main>
     <div class="bg-black-1 py-12">
