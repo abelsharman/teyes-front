@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <div style="box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.03)">
-      <VHeader class="desktop-wrapper" />
+      <VHeader class="desktop-wrapper" @onNavToWhatsapp="onNavToWhatsapp" />
     </div>
     <main class="flex-1">
       <div class="flex space-x-28 flex-1 desktop-wrapper mt-14">
@@ -22,6 +22,7 @@
           <button
             type="button"
             class="py-3 px-4 rounded text-base font-semibold text-white bg-red-1 leading-4 hover:bg-red-2 duration-200"
+            @click="onNavToWhatsapp" 
           >
             Написать в WhatsApp
           </button>
@@ -42,6 +43,14 @@ export default {
   components: {
     VHeader,
     VFooter,
+  },
+  methods: {
+    onNavToWhatsapp() {
+      window.open(
+        "https://api.whatsapp.com/send/?phone=77756189915&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%21+%EF%BF%BD+%D0%9C%D0%B5%D0%BD%D1%8F+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82+&type=phone_number&app_absent=0",
+        "_blank"
+      );
+    },
   },
 };
 </script>

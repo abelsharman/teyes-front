@@ -128,6 +128,7 @@
       <button
         type="button"
         class="py-3 w-full mt-12 rounded-lg text-lg font-semibold text-white bg-red-1 leading-8 hover:bg-red-2 duration-46"
+        @click="$emit('onNavToWhatsapp')" 
       >
         Написать в WhatsApp
       </button>
