@@ -1,7 +1,14 @@
 <template>
   <div class="md:grid grid-cols-2">
-    <div class="md:pt-24 pt-6 px-4 md:px-0 md:pb-36 mb-6 text-gray-1" :class="blockClass">
-      <p class="md:text-5xl text-3xl font-bold text-center md:text-left md:mb-12 mb-10">Контакты</p>
+    <div
+      class="md:pt-24 pt-6 px-4 md:px-0 md:pb-36 mb-6 text-gray-1"
+      :class="blockClass"
+    >
+      <p
+        class="md:text-5xl text-3xl font-bold text-center md:text-left md:mb-12 mb-10"
+      >
+        Контакты
+      </p>
       <div class="flex text-lg md:space-x-6 space-x-4 mb-8 md:mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -56,24 +63,48 @@
         <p>График работы: понедельник-суббота, с 10:00-20:00</p>
       </div>
     </div>
-    <img src="../assets/test-map.png" alt="карта">
+    <YandexMap
+      :settings="settings"
+      :zoom="14"
+      :controls="['geolocationControl', 'rulerControl', 'zoomControl']"
+      :coordinates="coords"
+    >
+      <YandexMarker :coordinates="coords" :marker-id="1123"></YandexMarker>
+    </YandexMap>
   </div>
 </template>
 
 <script>
+import { YandexMap, YandexMarker } from "vue-yandex-maps";
+
 export default {
-  name: 'Contacts',
+  name: "Contacts",
   props: {
     blockClass: {
-      type: String, 
-      default: 'contacts-info'
-    }
-  }
-}
+      type: String,
+      default: "contacts-info",
+    },
+  },
+  components: { YandexMap, YandexMarker },
+  data() {
+    return {
+      settings: {
+        lang: "ru_RU",
+        apiKey: "27b79224-286c-4acb-bf2d-74bf8f264d64",
+        debug: false,
+        version: "2.1",
+      },
+      coords: [43.233183, 76.883275],
+    };
+  },
+};
 </script>
 
 <style>
 .contacts-info {
-    padding-left: calc((100vw - 1200px) / 2) !important;
+  padding-left: calc((100vw - 1200px) / 2) !important;
+}
+.yandex-container {
+  @apply md:h-auto h-[400px];
 }
 </style>
