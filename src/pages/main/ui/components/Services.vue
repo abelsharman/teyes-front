@@ -21,3 +21,38 @@
     </div>
   </div>
 </template>
+
+<script>
+import { _axios } from "@shared/libs";
+
+export default {
+  name: "Services",
+  data() {
+    return {
+      isLoading: true,
+      services: [],
+    };
+  },
+  created() {
+    this.fetchServices();
+  },
+  methods: {
+    fetchServices() {
+      this.isLoading = true;
+      _axios("services/", {
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+          "Access-Control-Allow-Credentials": true,
+        },
+      })
+        .then(({ data }) => {
+          this.services = data;
+        })
+        .finally(() => {
+          this.isLoading = false;
+        });
+    },
+  },
+}
+</script>
