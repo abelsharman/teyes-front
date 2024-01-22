@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="!isError">
     <p
       class="text-center text-gray-1 md:text-[40px] text-3xl font-bold md:mb-12 mb-8"
     >
@@ -42,6 +42,7 @@ export default defineComponent({
     return {
       isLoading: true,
       works: [],
+      isError: false,
     };
   },
   created() {
@@ -59,6 +60,10 @@ export default defineComponent({
       })
         .then(({ data }) => {
           this.works = data;
+          this.isError = false;
+        })
+        .catch(() => {
+          this.isError = true;
         })
         .finally(() => {
           this.isLoading = false;
