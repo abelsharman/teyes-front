@@ -7,7 +7,13 @@
         <div
           class="w-full overflow-x-auto overflow-y-hidden invisible-scrollbar flex space-x-5"
         >
-          <Product v-for="product in category.products" :key="product.slug" :info="product" class="w-[309px] min-w-[309px]" />
+          <Product
+            v-for="product in category.products"
+            :key="product.slug"
+            :info="product"
+            :category="category"
+            class="w-[309px] min-w-[309px]"
+          />
         </div>
       </div>
     </div>

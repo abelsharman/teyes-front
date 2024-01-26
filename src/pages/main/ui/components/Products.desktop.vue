@@ -10,11 +10,11 @@
         :key="category.slug"
         class="pb-1.5 border-b-2 text-lg duration-200"
         :class="
-          selectedCategory === category.slug
+          selectedCategory.slug === category.slug
             ? 'text-red-1 border-red-1 font-bold'
             : 'text-gray-1 border-transparent font-medium'
         "
-        @click="selectCategory(category.slug)"
+        @click="selectCategory(category)"
       >
         {{ category.name }}
       </button>
@@ -26,6 +26,7 @@
           <Product
             class="w-11/12 mx-auto first:mx-0 hover:scale-105 duration-200"
             :info="product"
+            :category="selectedCategory"
           />
         </div>
       </Slide>
@@ -117,15 +118,16 @@ const categories = ref([
     value: "Видеорегистратор",
   },
 ]);
-const selectedCategory = ref("");
+const selectedCategory = ref({});
 const productsCarousel = ref(null);
 const isError = ref(false);
 const isLoading = ref(false);
 
-const products =
-  computed(() =>
-    categories.value.find((c) => c.slug === selectedCategory.value)?.products || []
-  )
+const products = computed(
+  () =>
+    categories.value.find((c) => c.slug === selectedCategory.value?.slug)?.products ||
+    []
+);
 
 const selectCategory = (category) => {
   selectedCategory.value = category;
@@ -157,7 +159,7 @@ function fetchCategories() {
     .finally(() => {
       isLoading.value = false;
       if (categories.value && categories.value.length > 0) {
-        selectedCategory.value = categories.value[0].slug;
+        selectedCategory.value = categories.value[0];
       }
     });
 }

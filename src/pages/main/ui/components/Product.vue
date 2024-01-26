@@ -20,6 +20,10 @@ export default {
       type: Object,
       required: true,
     },
+    category: {
+      type: Object,
+      required: true,
+    },
   },
   computed: {
     firstImage() {
@@ -34,7 +38,8 @@ export default {
       this.$router.push({
         name: "ProductPage",
         params: {
-          id: this.info.slug,
+          product_slug: this.info.slug,
+          category_slug: this.category.slug
         },
       });
     },

@@ -12,7 +12,7 @@ export const router = createRouter({
       component: MainPage
     },
     {
-      path: '/:id',
+      path: '/:category_slug/:product_slug',
       name: 'ProductPage',
       component: ProductPage
     }
