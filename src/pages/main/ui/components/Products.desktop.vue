@@ -1,28 +1,31 @@
 <template>
-  <div>
+  <div v-if="!isError">
     <p class="text-gray-1 text-center text-[40px] font-bold mb-10">Товары</p>
-    <div class="flex items-center justify-between mb-10">
+    <div
+      class="flex items-start overflow-x-auto space-x-5 justify-between mb-10"
+    >
       <button
         type="button"
         v-for="category in categories"
-        :key="category.value"
+        :key="category.slug"
         class="pb-1.5 border-b-2 text-lg duration-200"
         :class="
-          selectedCategory === category.value
+          selectedCategory === category.slug
             ? 'text-red-1 border-red-1 font-bold'
             : 'text-gray-1 border-transparent font-medium'
         "
-        @click="selectCategory(category.value)"
+        @click="selectCategory(category.slug)"
       >
         {{ category.name }}
       </button>
     </div>
 
     <Carousel ref="productsCarousel" v-bind="settings" :wrap-around="true">
-      <Slide v-for="slide in 30" :key="slide">
+      <Slide v-for="product in products" :key="product.slug">
         <div class="carousel__item">
           <Product
             class="w-11/12 mx-auto first:mx-0 hover:scale-105 duration-200"
+            :info="product"
           />
         </div>
       </Slide>
@@ -80,9 +83,11 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onBeforeMount, computed } from "vue";
 import { Carousel, Pagination, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
+
+import { _axios, categoriesData } from "@shared/libs";
 
 import Product from "./Product.vue";
 
@@ -113,17 +118,53 @@ const categories = ref([
   },
 ]);
 const selectedCategory = ref("");
-const productsCarousel = ref(null)
+const productsCarousel = ref(null);
+const isError = ref(false);
+const isLoading = ref(false);
+
+const products =
+  computed(() =>
+    categories.value.find((c) => c.slug === selectedCategory.value)?.products || []
+  )
 
 const selectCategory = (category) => {
   selectedCategory.value = category;
 };
 
 const nextSlide = () => {
-    productsCarousel.value.next()
-}
+  productsCarousel.value.next();
+};
 
 const prevSlide = () => {
-    productsCarousel.value.prev()
+  productsCarousel.value.prev();
+};
+
+onBeforeMount(() => {
+  fetchCategories();
+});
+
+function fetchCategories() {
+  isLoading.value = true;
+  _axios("categories/")
+    .then(({ data }) => {
+      categories.value = data;
+      isError.value = false;
+    })
+    .catch(() => {
+      isError.value = true;
+      // categories.value = categoriesData;
+    })
+    .finally(() => {
+      isLoading.value = false;
+      if (categories.value && categories.value.length > 0) {
+        selectedCategory.value = categories.value[0].slug;
+      }
+    });
 }
 </script>
+
+<style>
+.carousel__track {
+  align-items: flex-start;
+}
+</style>
