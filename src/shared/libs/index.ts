@@ -1,5 +1,4 @@
-import { _axios } from './axios.ts';
+import { _axios } from "./axios.ts";
+export { prettyPrice } from "./money-format.js";
 
-export {
-  _axios
-}
+export { _axios };

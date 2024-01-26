@@ -1,15 +1,23 @@
 <template>
-  <div>
-    <p class="text-center text-gray-1 font-bold md:text-[40px] text-3xl md:mb-8 mb-6">
+  <div v-if="!isError">
+    <p
+      class="text-center text-gray-1 font-bold md:text-[40px] text-3xl md:mb-8 mb-6"
+    >
       Наши услуги
     </p>
     <div class="grid md:grid-cols-4 gap-5 w-max mx-auto">
-      <div v-for="i in 8" :key="i" class="duration-200 hover:scale-105">
+      <div
+        v-for="service in services"
+        :key="service.slug"
+        class="duration-200 hover:scale-105"
+      >
         <div class="bg-gray-2 text-gray-1 rounded-lg pt-6 pl-8 w-[309px] pb-9">
-          <p class="mb-6 text-2xl font-bold w-10/12">Установка автомагнитолы</p>
-          <p class="mb-8 text-opacity-80 text-base">Цена: от 76 000тг</p>
+          <p class="mb-6 text-2xl font-bold w-10/12">{{ service.name }}</p>
+          <p class="mb-8 text-opacity-80 text-base">
+            Цена: от {{ prettyPrice(service.price, service.currency) }}
+          </p>
           <img
-            src="../assets/test-magnitol.png"
+            :src="service.image"
             class="w-[215px] h-[170px] ml-auto"
             width="215"
             height="170"
@@ -23,7 +31,7 @@
 </template>
 
 <script>
-import { _axios } from "@shared/libs";
+import { _axios, prettyPrice } from "@shared/libs";
 
 export default {
   name: "Services",
@@ -31,14 +39,17 @@ export default {
     return {
       isLoading: true,
       services: [],
+      isError: false,
     };
   },
   created() {
     this.fetchServices();
   },
   methods: {
+    prettyPrice,
     fetchServices() {
       this.isLoading = true;
+
       _axios("services/", {
         headers: {
           "Access-Control-Allow-Origin": "*",
@@ -48,11 +59,15 @@ export default {
       })
         .then(({ data }) => {
           this.services = data;
+          this.isError = false;
+        })
+        .catch(() => {
+          this.isError = true;
         })
         .finally(() => {
           this.isLoading = false;
         });
     },
   },
-}
+};
 </script>
