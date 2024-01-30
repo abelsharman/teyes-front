@@ -7,102 +7,102 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_158596.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_158596.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151128.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151128.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154705.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154705.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154704.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154704.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154701.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154701.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154702.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154702.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154703.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154703.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151619.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151619.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151627.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151627.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151626.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151626.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154695.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154695.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154700.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154700.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154696.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154696.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154697.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154697.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154699.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154699.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154698.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154698.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151620.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151620.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151621.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151621.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151622.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151622.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151623.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151623.webp",
               order: 2,
             },
           ],
@@ -115,67 +115,67 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_158595.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_158595.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_150972.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_150972.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147695.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147695.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147696.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147696.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147697.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147697.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147698.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147698.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147670.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147670.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147671.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147671.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147669.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147669.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147699.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147699.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147700.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147700.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147701.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147701.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147702.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-lx-570-lx-450d-2015-2022-wide-media-mt8011qu-6-128_147702.webp",
               order: 2,
             },
           ],
@@ -188,62 +188,62 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189620.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189620.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189621.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189621.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189622.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189622.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189623.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189623.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189624.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189624.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189625.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189625.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189626.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189626.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189627.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189627.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189628.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189628.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189629.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189629.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189630.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189630.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189631.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-8-128_189631.webp",
               order: 2,
             },
           ],
@@ -256,52 +256,52 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154216.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154216.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154217.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154217.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154218.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154218.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154219.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154219.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154220.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154220.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154222.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154222.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154223.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154223.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154224.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154224.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154237.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154237.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154240.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya_154240.webp",
               order: 2,
             },
           ],
@@ -314,57 +314,57 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_GILGxD9.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_GILGxD9.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_mUFMyOd.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_mUFMyOd.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_UpLixLc.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_UpLixLc.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_eJwQWsf.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_eJwQWsf.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_PJdO9EG.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_PJdO9EG.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_Er6S0c9.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_Er6S0c9.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_QH6xnB0.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_QH6xnB0.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_bF9Nje5.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_bF9Nje5.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_PiM34r0.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_PiM34r0.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_6sfZaDv.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_6sfZaDv.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_kAbGaWV.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-fj-cruiser-2006-wide-media-mt8015qu-6-128-seraya-s-krugovym-_kAbGaWV.webp",
               order: 2,
             },
           ],
@@ -377,72 +377,72 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141994.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141994.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141999.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141999.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142000.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142000.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142001.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142001.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141996.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141996.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142002.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142002.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142003.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_142003.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141981.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141981.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141982.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141982.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141983.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141983.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141984.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141984.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141980.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141980.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141998.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141998.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141997.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-lexus-gx-460-2009-2019-wide-media-mt8009qu-4-64_141997.webp",
               order: 2,
             },
           ],
@@ -455,87 +455,87 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_vpLAmOp.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_vpLAmOp.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_DFq2pGZ.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_DFq2pGZ.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_467ktma.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_467ktma.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_G2cWzuy.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_G2cWzuy.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_QL7i5Bn.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_QL7i5Bn.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_zSfeOuL.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_zSfeOuL.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_Hoz20Rc.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_Hoz20Rc.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_3LmpWBM.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_3LmpWBM.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_TH6Pi4g.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_TH6Pi4g.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_qdQSLud.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_qdQSLud.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_DtsLiy6.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_DtsLiy6.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_BzY0Ikx.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_BzY0Ikx.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_iUFwSWH.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_iUFwSWH.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_nMOmB7m.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_nMOmB7m.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_QNcPtIO.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_QNcPtIO.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_REnoIpg.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_REnoIpg.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_hciGcTo.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-tlc-prado-lexus-gx-2002-2009-wide-media-mt8017qu-6-128-dlya-av-bez-_hciGcTo.webp",
               order: 2,
             },
           ],
@@ -548,112 +548,112 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128-dlya-kompl-bez-cd_158598.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128-dlya-kompl-bez-cd_158598.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151132.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151132.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154713.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154713.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154711.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154711.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154712.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154712.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151133.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151133.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151478.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151478.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151479.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151479.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151480.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151480.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151481.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151481.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151484.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151484.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151485.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151485.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154716.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154716.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154717.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154717.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154714.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154714.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154715.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154715.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151482.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151482.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151483.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_151483.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128-dlya-kompl-bez-cd_157794.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128-dlya-kompl-bez-cd_157794.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128-dlya-kompl-bez-cd_157795.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128-dlya-kompl-bez-cd_157795.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154744.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154744.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154745.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2021-wide-media-mt8016qu-6-128_154745.webp",
               order: 2,
             },
           ],
@@ -666,97 +666,97 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_3hti3p9.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_3hti3p9.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_CMOnA2F.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_CMOnA2F.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_yjAQrsz.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_yjAQrsz.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_uw5n9qJ.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_uw5n9qJ.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_Su2kiCo.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_Su2kiCo.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_R7yrwbI.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_R7yrwbI.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_9zDKmk9.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_9zDKmk9.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_nXs3JqK.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_nXs3JqK.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_rPllUTo.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_rPllUTo.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_fkTHeUj.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_fkTHeUj.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_Ab2SSK4.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_Ab2SSK4.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_HLOh6Fw.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_HLOh6Fw.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_6yXFlsu.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_6yXFlsu.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_u29w9tb.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_u29w9tb.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_5rn1e1F.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_5rn1e1F.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_QJNuwRy.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_QJNuwRy.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_0NbWXed.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_0NbWXed.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_IgD4xLU.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_IgD4xLU.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_JQSiiop.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-toyota-land-cruiser-2015-2021-wide-media-mt8020qu-8-128-avto-s-navi_JQSiiop.webp",
               order: 2,
             },
           ],
@@ -769,77 +769,77 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_158584.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_158584.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142012.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142012.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142013.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142013.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142014.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142014.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142015.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142015.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144340.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144340.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144341.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144341.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144342.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144342.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144343.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144343.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144344.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144344.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144345.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144345.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144346.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144346.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144347.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_144347.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142016.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142016.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142017.webp",
+                "https://garagepro.kz/media/shtatnaya-magnitola-porsche-cayenne-2010-2017-wide-media-mt8002qu-6-128_142017.webp",
               order: 2,
             },
           ],
@@ -858,12 +858,12 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/ksize-amp-mt01-adapter-zvuka-rockford-fosgate-na-avtomobili-mitsubishi-pajero-outlander_jvwEmU2.webp",
+                "https://garagepro.kz/media/ksize-amp-mt01-adapter-zvuka-rockford-fosgate-na-avtomobili-mitsubishi-pajero-outlander_jvwEmU2.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/ksize-amp-mt01-adapter-zvuka-rockford-fosgate-na-avtomobili-mitsubishi-pajero-outlander_5FFqLRD.webp",
+                "https://garagepro.kz/media/ksize-amp-mt01-adapter-zvuka-rockford-fosgate-na-avtomobili-mitsubishi-pajero-outlander_5FFqLRD.webp",
               order: 2,
             },
           ],
@@ -876,17 +876,17 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/ksize-tk-1-nabor-dlya-demontazha_19517.webp",
+                "https://garagepro.kz/media/ksize-tk-1-nabor-dlya-demontazha_19517.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/ksize-tk-1-nabor-dlya-demontazha_19519.webp",
+                "https://garagepro.kz/media/ksize-tk-1-nabor-dlya-demontazha_19519.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/ksize-tk-1-nabor-dlya-demontazha_19520.webp",
+                "https://garagepro.kz/media/ksize-tk-1-nabor-dlya-demontazha_19520.webp",
               order: 2,
             },
           ],
@@ -899,12 +899,12 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/ksize-tk-2-nabor-dlya-demontazha_8180.webp",
+                "https://garagepro.kz/media/ksize-tk-2-nabor-dlya-demontazha_8180.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/ksize-tk-2-nabor-dlya-demontazha_8181.webp",
+                "https://garagepro.kz/media/ksize-tk-2-nabor-dlya-demontazha_8181.webp",
               order: 2,
             },
           ],
@@ -924,32 +924,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151317.webp",
+                "https://garagepro.kz/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151317.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151321.webp",
+                "https://garagepro.kz/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151321.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151320.webp",
+                "https://garagepro.kz/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151320.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151318.webp",
+                "https://garagepro.kz/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151318.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151322.webp",
+                "https://garagepro.kz/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151322.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151319.webp",
+                "https://garagepro.kz/media/zaglushka-knopki-dlya-ramki-v-toyota-estima-2000-2005_151319.webp",
               order: 2,
             },
           ],
@@ -969,27 +969,27 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144415.webp",
+                "https://garagepro.kz/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144415.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144848.webp",
+                "https://garagepro.kz/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144848.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144417.webp",
+                "https://garagepro.kz/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144417.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144418.webp",
+                "https://garagepro.kz/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144418.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144419.webp",
+                "https://garagepro.kz/media/knopka-avariynoy-ostanovki-dlya-ramki-toyota-highlander-2007-2013_144419.webp",
               order: 2,
             },
           ],
@@ -1002,17 +1002,17 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/knopka-s-fiksaciey-dlya-honda-2012_111480.webp",
+                "https://garagepro.kz/media/knopka-s-fiksaciey-dlya-honda-2012_111480.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-s-fiksaciey-dlya-honda-2012_111481.webp",
+                "https://garagepro.kz/media/knopka-s-fiksaciey-dlya-honda-2012_111481.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-s-fiksaciey-dlya-honda-2012_111482.webp",
+                "https://garagepro.kz/media/knopka-s-fiksaciey-dlya-honda-2012_111482.webp",
               order: 2,
             },
           ],
@@ -1032,17 +1032,17 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/knopka-s-fiksaciey-dlya-toyota-lexus-2017_111486.webp",
+                "https://garagepro.kz/media/knopka-s-fiksaciey-dlya-toyota-lexus-2017_111486.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-s-fiksaciey-dlya-toyota-lexus-2017_111487.webp",
+                "https://garagepro.kz/media/knopka-s-fiksaciey-dlya-toyota-lexus-2017_111487.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/knopka-s-fiksaciey-dlya-toyota-lexus-2017_111488.webp",
+                "https://garagepro.kz/media/knopka-s-fiksaciey-dlya-toyota-lexus-2017_111488.webp",
               order: 2,
             },
           ],
@@ -1061,52 +1061,52 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92983.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92983.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92984.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92984.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92980.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92980.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92973.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92973.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92974.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92974.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92975.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92975.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92976.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92976.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92977.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92977.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92978.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92978.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92981.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zgc7t_92981.webp",
               order: 2,
             },
           ],
@@ -1119,42 +1119,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_55197.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_55197.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47368.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47368.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47369.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47369.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47370.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47370.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47371.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47371.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47372.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47372.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_49157.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_49157.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47373.webp",
+                "https://garagepro.kz/media/komplekt-ohlazhdeniya-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc7_47373.webp",
               order: 2,
             },
           ],
@@ -1167,67 +1167,67 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161389.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161389.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161398.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161398.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161399.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161399.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161400.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161400.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161401.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161401.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161402.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161402.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161403.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161403.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161404.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161404.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161405.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161405.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161406.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161406.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161407.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161407.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161408.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161408.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161409.webp",
+                "https://garagepro.kz/media/komplekt-ventilyacii-i-podogreva-odnogo-sideniya-s-krugloy-knopkoy-ksize-zgc70_161409.webp",
               order: 2,
             },
           ],
@@ -1240,37 +1240,37 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160181.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160181.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160182.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160182.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160183.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160183.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160184.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160184.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160185.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160185.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160203.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160203.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160205.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip2_160205.webp",
               order: 2,
             },
           ],
@@ -1283,42 +1283,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_188119.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_188119.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160186.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160186.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160187.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160187.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160188.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160188.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160189.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160189.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160190.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160190.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160191.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160191.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160207.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9-tip3_160207.webp",
               order: 2,
             },
           ],
@@ -1331,42 +1331,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_188117.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_188117.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160175.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160175.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160176.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160176.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160177.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160177.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160178.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160178.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160179.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160179.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160180.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160180.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160204.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-2018-ksize-zg9_160204.webp",
               order: 2,
             },
           ],
@@ -1379,67 +1379,67 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_188118.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_188118.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92982.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92982.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92962.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92962.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92963.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92963.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92971.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92971.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92964.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92964.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92965.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92965.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92966.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92966.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92970.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92970.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92967.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92967.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92968.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92968.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92969.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92969.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92972.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-dlya-toyota-prado-2017-ksize-zg6pr_92972.webp",
               order: 2,
             },
           ],
@@ -1452,37 +1452,37 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-subaru-ksize-zg10_188123.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-subaru-ksize-zg10_188123.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58894.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58894.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58895.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58895.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58997.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58997.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58896.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58896.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58899.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58899.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58898.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-nissan-ksize-zg10_58898.webp",
               order: 2,
             },
           ],
@@ -1495,42 +1495,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-mitsubishi-2019-ksize_QsTK2zA.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-mitsubishi-2019-ksize_QsTK2zA.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45185.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45185.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45186.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45186.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_40679.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_40679.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45190.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45190.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_40681.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_40681.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45187.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45187.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45189.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg6l-tip-2_45189.webp",
               order: 2,
             },
           ],
@@ -1543,57 +1543,57 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-mitsubishi-2019-ksize_MkxEswo.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-mitsubishi-2019-ksize_MkxEswo.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58882.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58882.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58879.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58879.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_59202.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_59202.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_59203.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_59203.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_59204.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_59204.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58880.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58880.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58998.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58998.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58878.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58878.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58884.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58884.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58883.webp",
+                "https://garagepro.kz/media/komplekt-podogreva-dvuh-sideniy-s-razdelnymi-knopkami-dlya-toyota-ksize-zg8-tip3_58883.webp",
               order: 2,
             },
           ],
@@ -1612,67 +1612,67 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140472.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140472.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140473.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140473.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140490.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140490.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140491.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140491.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140492.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140492.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140479.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140479.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140476.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140476.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140477.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140477.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140478.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140478.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140480.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140480.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140495.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140495.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140493.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140493.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140494.webp",
+                "https://garagepro.kz/media/cam-12-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_140494.webp",
               order: 2,
             },
           ],
@@ -1685,57 +1685,57 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141915.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141915.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141920.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141920.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141917.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141917.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141922.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141922.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141921.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141921.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141923.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141923.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141918.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141918.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141916.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141916.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141919.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_141919.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_148087.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_148087.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_148088.webp",
+                "https://garagepro.kz/media/cam-12ahd-kamera-zadnego-vida-dlya-ustanovki-na-kryshu-furgona_148088.webp",
               order: 2,
             },
           ],
@@ -1748,27 +1748,27 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144872.webp",
+                "https://garagepro.kz/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144872.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144873.webp",
+                "https://garagepro.kz/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144873.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148122.webp",
+                "https://garagepro.kz/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148122.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148045.webp",
+                "https://garagepro.kz/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148045.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148046.webp",
+                "https://garagepro.kz/media/cam-1-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148046.webp",
               order: 2,
             },
           ],
@@ -1781,32 +1781,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_M7J2G5F.webp",
+                "https://garagepro.kz/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_M7J2G5F.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_ZUCX3S8.webp",
+                "https://garagepro.kz/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_ZUCX3S8.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_r5e93EB.webp",
+                "https://garagepro.kz/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_r5e93EB.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_BZPxTLv.webp",
+                "https://garagepro.kz/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_BZPxTLv.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_BGsBsiU.webp",
+                "https://garagepro.kz/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_BGsBsiU.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_8UGbUF3.webp",
+                "https://garagepro.kz/media/cam-11fv-kamera-frontalnaya-universalnaya-babochka-dlya-krepleniya-na-vertikalnuyu-pove_8UGbUF3.webp",
               order: 2,
             },
           ],
@@ -1819,47 +1819,47 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191110.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191110.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191111.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191111.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191112.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191112.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191113.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_191113.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_188643.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_188643.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-10-32-v_191131.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-10-32-v_191131.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-10-32-v_191130.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-10-32-v_191130.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-10-32-v_191133.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-10-32-v_191133.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_188644.webp",
+                "https://garagepro.kz/media/cam-14-universalnaya-videokamera-so-shtorkoy-podogrevom-i-ik-podsvetkoy-12-24v_188644.webp",
               order: 2,
             },
           ],
@@ -1872,32 +1872,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188651.webp",
+                "https://garagepro.kz/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188651.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188652.webp",
+                "https://garagepro.kz/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188652.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188653.webp",
+                "https://garagepro.kz/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188653.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188654.webp",
+                "https://garagepro.kz/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188654.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188655.webp",
+                "https://garagepro.kz/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188655.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188656.webp",
+                "https://garagepro.kz/media/cam-16-universalnaya-videokamera-besprovodnaya-dlya-monitora-cx-703_188656.webp",
               order: 2,
             },
           ],
@@ -1910,32 +1910,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_144859.webp",
+                "https://garagepro.kz/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_144859.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148124.webp",
+                "https://garagepro.kz/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148124.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148123.webp",
+                "https://garagepro.kz/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148123.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm-0-1-lux_19867.webp",
+                "https://garagepro.kz/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm-0-1-lux_19867.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148047.webp",
+                "https://garagepro.kz/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148047.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148048.webp",
+                "https://garagepro.kz/media/cam-1f-kamera-frontalnaya-universalnaya-cilindr-18-5-mm_148048.webp",
               order: 2,
             },
           ],
@@ -1948,27 +1948,27 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144875.webp",
+                "https://garagepro.kz/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144875.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144874.webp",
+                "https://garagepro.kz/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144874.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148125.webp",
+                "https://garagepro.kz/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148125.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148043.webp",
+                "https://garagepro.kz/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148043.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148044.webp",
+                "https://garagepro.kz/media/cam-1j-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148044.webp",
               order: 2,
             },
           ],
@@ -1981,27 +1981,27 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144877.webp",
+                "https://garagepro.kz/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144877.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144876.webp",
+                "https://garagepro.kz/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_144876.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148126.webp",
+                "https://garagepro.kz/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148126.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148049.webp",
+                "https://garagepro.kz/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148049.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148050.webp",
+                "https://garagepro.kz/media/cam-1l-kamera-zadnego-vida-universalnaya-cilindr-18-5-mm_148050.webp",
               order: 2,
             },
           ],
@@ -2014,27 +2014,27 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/cam-2-kamera-zadnego-vida-universalnaya-kub_144890.webp",
+                "https://garagepro.kz/media/cam-2-kamera-zadnego-vida-universalnaya-kub_144890.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-2-kamera-zadnego-vida-universalnaya-kub_144891.webp",
+                "https://garagepro.kz/media/cam-2-kamera-zadnego-vida-universalnaya-kub_144891.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-2-kamera-zadnego-vida-universalnaya-kub_148127.webp",
+                "https://garagepro.kz/media/cam-2-kamera-zadnego-vida-universalnaya-kub_148127.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-2-kamera-zadnego-vida-universalnaya-kub_148051.webp",
+                "https://garagepro.kz/media/cam-2-kamera-zadnego-vida-universalnaya-kub_148051.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/cam-2-kamera-zadnego-vida-universalnaya-kub_148052.webp",
+                "https://garagepro.kz/media/cam-2-kamera-zadnego-vida-universalnaya-kub_148052.webp",
               order: 2,
             },
           ],
@@ -2053,57 +2053,57 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105451.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105451.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_106553.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_106553.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105452.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105452.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105453.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105453.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105443.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105443.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105445.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105445.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105446.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105446.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105447.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105447.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105448.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105448.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105449.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105449.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105450.webp",
+                "https://garagepro.kz/media/monitor-na-podgolovnik-wm-md-1-12-5-na-baze-android-s-universalnymi-krepleniyami_105450.webp",
               order: 2,
             },
           ],
@@ -2116,62 +2116,62 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157867.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157867.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157868.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157868.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157869.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157869.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157604.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157604.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157605.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157605.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157606.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157606.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157906.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157906.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157608.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157608.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157609.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157609.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157610.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157610.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157611.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157611.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157866.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-1-13-3-na-baze-android-s-montazhnoy-platformoy-bezhevyy_157866.webp",
               order: 2,
             },
           ],
@@ -2184,42 +2184,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_145383.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_145383.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157925.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157925.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157616.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157616.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157617.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157617.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157618.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157618.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157620.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157620.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157619.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157619.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157871.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-2-15-6-bezhevyy_157871.webp",
               order: 2,
             },
           ],
@@ -2232,42 +2232,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157918.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157918.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157919.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157919.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157920.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157920.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157921.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157921.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157922.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157922.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157923.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157923.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157924.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157924.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157876.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-bezhevyy_157876.webp",
               order: 2,
             },
           ],
@@ -2280,37 +2280,37 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157859.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157859.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157860.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157860.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157861.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157861.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157862.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157862.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157863.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157863.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157864.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157864.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157865.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-3-18-5-seryy_157865.webp",
               order: 2,
             },
           ],
@@ -2323,42 +2323,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_JCWvuQz.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_JCWvuQz.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_xYCpdKw.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_xYCpdKw.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_uHc0J0Q.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_uHc0J0Q.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_K00tERI.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_K00tERI.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_pkFqPkP.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_pkFqPkP.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_U4I7mBj.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_U4I7mBj.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_TvZxHYP.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_TvZxHYP.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_Wwt3CzT.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-b_Wwt3CzT.webp",
               order: 2,
             },
           ],
@@ -2371,42 +2371,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_GTb0hmc.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_GTb0hmc.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_knzX6VX.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_knzX6VX.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_uyQwcFV.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_uyQwcFV.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_Djdpkdc.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_Djdpkdc.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_OjkDtHw.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_OjkDtHw.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_Fy4tgqj.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_Fy4tgqj.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_5aVOndV.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_5aVOndV.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_2ztQrq8.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-s_2ztQrq8.webp",
               order: 2,
             },
           ],
@@ -2419,42 +2419,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_MoldXya.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_MoldXya.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_cAyUFpB.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_cAyUFpB.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_afP5QCc.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_afP5QCc.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_tuVR4rw.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_tuVR4rw.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_uBA2kOY.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_uBA2kOY.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_I2AntMT.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_I2AntMT.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_I7rTRGt.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_I7rTRGt.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_hhiPIpX.webp",
+                "https://garagepro.kz/media/monitor-potolochnyy-wm-mr-4-15-6-na-baze-android-dlya-ustanovki-v-toyota-alphard-2015-c_hhiPIpX.webp",
               order: 2,
             },
           ],
@@ -2473,52 +2473,52 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182829.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182829.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182820.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182820.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182821.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182821.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182822.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182822.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182823.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182823.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182824.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182824.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182825.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182825.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182826.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182826.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182827.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182827.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182828.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs35-plus-2021-impulse-etg-99_182828.webp",
               order: 2,
             },
           ],
@@ -2531,37 +2531,37 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182837.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182837.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182831.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182831.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182832.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182832.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182833.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182833.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182834.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182834.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182835.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182835.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182836.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs55-plus-2021-impulse-etg-100_182836.webp",
               order: 2,
             },
           ],
@@ -2574,42 +2574,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-f30-impulse-etg-08_127408.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-f30-impulse-etg-08_127408.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82034.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82034.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82035.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82035.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82036.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82036.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82037.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82037.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82038.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82038.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82039.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82039.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82040.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series3-f20-impulse-etg-08_82040.webp",
               order: 2,
             },
           ],
@@ -2622,42 +2622,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_127374.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_127374.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126916.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126916.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126917.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126917.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126918.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126918.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126919.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126919.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126920.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126920.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126921.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126921.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126922.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2011-2019-impulse-etg-84_126922.webp",
               order: 2,
             },
           ],
@@ -2670,42 +2670,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_127409.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_127409.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126923.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126923.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126924.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126924.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126925.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126925.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126926.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126926.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126927.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126927.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126928.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126928.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126929.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-3-series-2019-impulse-etg-85_126929.webp",
               order: 2,
             },
           ],
@@ -2718,42 +2718,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_127410.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_127410.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126930.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126930.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126931.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126931.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126932.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126932.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126933.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126933.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126934.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126934.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126935.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126935.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126936.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2009-2017-impulse-etg-86_126936.webp",
               order: 2,
             },
           ],
@@ -2766,42 +2766,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_127411.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_127411.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126937.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126937.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126938.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126938.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126939.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126939.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126940.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126940.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126941.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126941.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126942.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126942.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126943.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-5-series-2017-impulse-etg-87_126943.webp",
               order: 2,
             },
           ],
@@ -2814,42 +2814,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_127412.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_127412.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82041.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82041.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82042.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82042.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82043.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82043.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82044.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82044.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82045.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82045.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82046.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82046.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82047.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-bmw-series5-f18-impulse-etg-07_82047.webp",
               order: 2,
             },
           ],
@@ -2862,42 +2862,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161317.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161317.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161318.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161318.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161319.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161319.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161320.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161320.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161321.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161321.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161322.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161322.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161323.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161323.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161324.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-changan-cs75-2018-impulse-etg-92_161324.webp",
               order: 2,
             },
           ],
@@ -2910,42 +2910,42 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146089.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146089.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146090.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146090.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146091.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146091.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146092.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146092.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146093.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146093.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146094.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146094.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146095.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146095.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146096.webp",
+                "https://garagepro.kz/media/elektroprivod-dveri-bagazhnika-dlya-chery-tiggo-4-2018-impulse-etg-91_146096.webp",
               order: 2,
             },
           ],
@@ -2964,32 +2964,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_S0Uud08.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_S0Uud08.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_vTnf4er.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_vTnf4er.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_TEzAczt.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_TEzAczt.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_lVXWzE1.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_lVXWzE1.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_cOAW7xC.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_cOAW7xC.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_PjHWAlf.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-cr-v-2012-2017-dlya-avto-s-v-2-0l-lev-r_PjHWAlf.webp",
               order: 2,
             },
           ],
@@ -3002,17 +3002,17 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/dinamik-dlya-can-adapterov-raise-s-razemom_190911.webp",
+                "https://garagepro.kz/media/dinamik-dlya-can-adapterov-raise-s-razemom_190911.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/dinamik-dlya-can-adapterov-raise-s-razemom_190933.webp",
+                "https://garagepro.kz/media/dinamik-dlya-can-adapterov-raise-s-razemom_190933.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/dinamik-dlya-can-adapterov-raise-s-razemom_190934.webp",
+                "https://garagepro.kz/media/dinamik-dlya-can-adapterov-raise-s-razemom_190934.webp",
               order: 2,
             },
           ],
@@ -3025,32 +3025,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151139.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151139.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151140.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151140.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151244.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151244.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151245.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151245.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151142.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151142.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151141.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-captiva-2011-2015_151141.webp",
               order: 2,
             },
           ],
@@ -3063,32 +3063,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151033.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151033.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151028.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151028.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_154177.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_154177.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_154176.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_154176.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151034.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151034.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151035.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-chevrolet-cruze-2008-2013_151035.webp",
               order: 2,
             },
           ],
@@ -3101,32 +3101,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151150.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151150.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151151.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151151.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_154174.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_154174.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_154175.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_154175.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151152.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151152.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151153.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-ecosport-2014-2019_151153.webp",
               order: 2,
             },
           ],
@@ -3139,32 +3139,32 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151154.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151154.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151155.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151155.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151257.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151257.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151258.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151258.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151156.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151156.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151157.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-focus-2012-2019_151157.webp",
               order: 2,
             },
           ],
@@ -3177,52 +3177,52 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186456.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186456.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186457.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186457.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186458.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186458.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186459.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186459.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186460.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186460.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186461.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186461.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186462.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186462.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186463.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186463.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186464.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186464.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186465.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-kuga-2013-2019_186465.webp",
               order: 2,
             },
           ],
@@ -3235,27 +3235,27 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111543.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111543.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111490.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111490.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111491.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111491.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111492.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111492.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111493.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-ford-mondeo-2007-2015_111493.webp",
               order: 2,
             },
           ],
@@ -3268,57 +3268,57 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mt-v-honda-civic-2006-2011-sedan_142595.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mt-v-honda-civic-2006-2011-sedan_142595.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145654.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145654.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145655.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145655.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145656.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145656.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145657.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145657.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145658.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145658.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145659.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145659.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145660.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145660.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145661.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145661.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145662.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145662.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145663.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2006-2011-sedan-osnovnoy-ant-can_145663.webp",
               order: 2,
             },
           ],
@@ -3331,27 +3331,27 @@ export const categoriesData = [
           image_list: [
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151147.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151147.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151148.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151148.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151250.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151250.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151251.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151251.webp",
               order: 2,
             },
             {
               image:
-                "http://89.46.33.69/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151149.webp",
+                "https://garagepro.kz/media/komplekt-provodov-dlya-ustanovki-wm-mfc-v-honda-civic-2012-2015-lev-rul-sed-avto-bez-kam_151149.webp",
               order: 2,
             },
           ],
@@ -3364,4 +3364,4 @@ export const categoriesData = [
     },
   ];
 
-export const productData = {"image_list":[{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_158596.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151128.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154705.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154704.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154701.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154702.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154703.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151619.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151627.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151626.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154695.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154700.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154696.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154697.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154699.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154698.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151620.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151621.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151622.webp","order":2},{"image":"http://89.46.33.69/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151623.webp","order":2}],"slug":"shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-4-128-00000024710","name":"Штатная магнитола Nissan Patrol 10-17, Infiniti QX56 10-13, QX80 13-20 Wide Media MT8012QU-6/128","price":"884646.00","currency":"KZT","description":"<div class=\"s-text__mb_30 js-nomenclature_block\" itemprop=\"description\">\n    🔸 Огромный 12,3\" яркий IPS экран с разрешением 1920*720.<br/>🔸 Горизонтальные пропорции экрана идеальны для одновременной работы с двумя приложениями.<br/>🔸 8 ядер процессора - моментальный отклик на действия без подвисаний.<br/>🔸 Большой объем доступной памяти - 6ГБ оперативной и 128ГБ для установки приложений и хранения файлов. 6ГБ оперативной памяти позволяют держать больше активных приложений в фоне, а 128ГБ внутренней памяти позволяют установить любые необходимые приложения.<br/>🔸 Bluetooth версии 5.0<br/>🔸 Слот для SIM карты 4G, чтобы всегда быть \"онлайн\".<br/>🔸 Несколько цветов рабочего стола на выбор.  </div>"}
+export const productData = {"image_list":[{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_158596.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151128.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154705.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154704.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154701.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154702.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154703.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151619.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151627.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151626.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154695.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154700.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154696.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154697.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154699.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_154698.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151620.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151621.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151622.webp","order":2},{"image":"https://garagepro.kz/media/shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-6-128_151623.webp","order":2}],"slug":"shtatnaya-magnitola-nissan-patrol-2010-2017-wide-media-mt8012qu-4-128-00000024710","name":"Штатная магнитола Nissan Patrol 10-17, Infiniti QX56 10-13, QX80 13-20 Wide Media MT8012QU-6/128","price":"884646.00","currency":"KZT","description":"<div class=\"s-text__mb_30 js-nomenclature_block\" itemprop=\"description\">\n    🔸 Огромный 12,3\" яркий IPS экран с разрешением 1920*720.<br/>🔸 Горизонтальные пропорции экрана идеальны для одновременной работы с двумя приложениями.<br/>🔸 8 ядер процессора - моментальный отклик на действия без подвисаний.<br/>🔸 Большой объем доступной памяти - 6ГБ оперативной и 128ГБ для установки приложений и хранения файлов. 6ГБ оперативной памяти позволяют держать больше активных приложений в фоне, а 128ГБ внутренней памяти позволяют установить любые необходимые приложения.<br/>🔸 Bluetooth версии 5.0<br/>🔸 Слот для SIM карты 4G, чтобы всегда быть \"онлайн\".<br/>🔸 Несколько цветов рабочего стола на выбор.  </div>"}

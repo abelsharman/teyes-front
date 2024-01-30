@@ -2,7 +2,7 @@
 import axios from "axios";
 
 let config = {
-  baseURL: 'http://89.46.33.69/api/',
+  baseURL: 'https://garagepro.kz/api/',
   // timeout: 60 * 1000, // Timeout
   // withCredentials: true, // Check cross-site Access-Control
 };

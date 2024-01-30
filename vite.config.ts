@@ -54,7 +54,7 @@ export default defineConfig(({ mode }) => {
         }
       }
     },
-    base: `http://89.46.33.69/${APP_NAME}/`,
+    base: `https://garagepro.kz/${APP_NAME}/`,
     plugins: [
       vue({
         script: {
