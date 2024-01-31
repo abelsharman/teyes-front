@@ -13,19 +13,22 @@
       <button
         type="button"
         class="p-3 rounded-lg text-lg md:w-auto w-full font-semibold text-white bg-red-1 leading-8 hover:bg-red-2 duration-200"
-        @click="$emit('onNavToWhatsapp')" 
+        @click="$emit('onNavToWhatsapp')"
       >
         Написать в WhatsApp
       </button>
     </div>
-    <img
-      src="../assets/magnitols.png"
-      class="md:w-[500px] md:mt-0 mt-6 md:h-[400px] w-full"
-      width="500"
-      height="400"
-      alt=""
-      role="presentation"
-      loading="lazy"
-    />
+    <picture loading="lazy">
+      <source srcset="../assets/magnitols.webp" type="image/webp" />
+      <img
+        src="../assets/magnitols.png"
+        class="md:w-[500px] md:mt-0 mt-6 md:h-[400px] w-full"
+        width="500"
+        height="400"
+        alt=""
+        role="presentation"
+        loading="lazy"
+      />
+    </picture>
   </div>
 </template>
