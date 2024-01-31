@@ -5,7 +5,7 @@
       <MainPageDescription id="main" class="mt-7 mb-10 px-4" @onNavToWhatsapp="onNavToWhatsapp" />
       <Benefits id="why-we" class="bg-gray-2 pt-6 pb-10" />
       <Services id="services" class="mt-6 mb-10 pl-10 pr-7" />
-      <Products id="products" class="bg-gray-2 pt-6 pb-10" />
+      <Products id="products" class="bg-gray-2 pt-6 pb-10" :is-all-products="false" />
       <Works id="works" class="my-8 px-4" />
       <Contacts id="contacts" :block-class="''" />
       <Questions :block-class="''" @onNavToWhatsapp="onNavToWhatsapp" />
