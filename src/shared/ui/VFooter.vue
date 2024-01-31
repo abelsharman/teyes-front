@@ -7,6 +7,7 @@
         width="200"
         height="40"
         alt="логотип"
+        loading="lazy"
       />
     </a>
     <div class="md:block hidden">

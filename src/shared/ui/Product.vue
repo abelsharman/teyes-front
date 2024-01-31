@@ -1,6 +1,6 @@
 <template>
   <div role="button" class="md:pb-11 pb-8 bg-white rounded-lg" @click="navToProduct">
-    <img v-if="firstImage" :src="firstImage.image" class="w-full object-cover h-56" alt="" role="presentation" />
+    <img v-if="firstImage" :src="firstImage.image" class="w-full object-cover h-56" alt="" role="presentation" loading="lazy" />
     <div class="px-4 pt-8 space-y-4 text-gray-1">
       <p class="font-bold text-[20px] line-clamp-2">{{ info.name }}</p>
       <p class="text-opacity-80 text-lg font-semibold">

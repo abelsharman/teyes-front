@@ -23,6 +23,7 @@
             height="170"
             role="presentation"
             alt=""
+            loading="lazy"
           />
         </div>
       </div>

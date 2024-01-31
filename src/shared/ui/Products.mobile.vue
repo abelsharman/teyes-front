@@ -1,7 +1,17 @@
 <template>
   <div v-if="!isError">
-    <p class="text-gray-1 text-center text-3xl font-bold mb-6">Товары</p>
-    <div class="space-y-7 pl-4">
+    <div class="flex px-4 items-center justify-between">
+      <p class="text-gray-1 text-center text-3xl font-bold">Товары</p>
+      <button
+        v-if="!isAllProducts"
+        type="button"
+        class="text-white bg-gray-500 text-sm rounded-lg hover:bg-gray-600 duration-200 py-1 px-3"
+        @click="navigateToProductsPage"
+      >
+        Показать все
+      </button>
+    </div>
+    <div class="space-y-7 mt-6 pl-4">
       <div v-for="category in categories" :key="category.slug">
         <p class="mb-6 text-red-1 text-lg font-bold">{{ category.name }}</p>
         <div
@@ -22,11 +32,20 @@
 
 <script setup>
 import { ref, onBeforeMount } from "vue";
+import { useRouter } from 'vue-router';
 
 import { _axios, categoriesData } from "@shared/libs";
 
 import Product from "./Product.vue";
 
+const props = defineProps({
+  isAllProducts: {
+    type: Boolean,
+    default: true,
+  },
+});
+
+const router = useRouter();
 const categories = ref([
   {
     name: "Автомагнитолы",
@@ -65,10 +84,16 @@ function fetchCategories() {
     })
     .catch(() => {
       isError.value = true;
-      // categories.value = categoriesData
+      // categories.value = categoriesData;
     })
     .finally(() => {
       isLoading.value = false;
     });
+}
+
+function navigateToProductsPage() {
+  router.push({
+    name: "ProductsPage",
+  });
 }
 </script>

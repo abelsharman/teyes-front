@@ -25,6 +25,7 @@
       height="400"
       alt=""
       role="presentation"
+      loading="lazy"
     />
   </div>
 </template>

@@ -12,7 +12,7 @@
     <Carousel v-else :autoplay="2000" :wrap-around="true">
       <Slide v-for="work in works" :key="work.slug">
         <div class="carousel__item">
-          <img class="md:h-[558px] h-[246px]" :src="work.image" alt="" />
+          <img class="md:h-[558px] h-[246px]" :src="work.image" alt="" loading="lazy" />
         </div>
       </Slide>
 

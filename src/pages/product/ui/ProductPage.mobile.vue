@@ -11,6 +11,7 @@
           class="w-full h-[250px] object-cover"
           :src="firstImage.image"
           alt=""
+          loading="lazy"
         />
         <div class="text-gray-1 mt-7 space-y-4">
           <h1 class="font-bold text-3xl">{{ info.name }}</h1>
