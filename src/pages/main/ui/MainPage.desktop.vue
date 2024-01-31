@@ -14,7 +14,7 @@
       </div>
       <Services id="services" class="mb-11 mt-8" />
       <div id="products" class="bg-gray-2 pt-8 pb-20">
-        <Products class="desktop-wrapper" />
+        <Products class="desktop-wrapper" :is-all-products="false" />
       </div>
       <Works id="works" class="my-14 desktop-wrapper" />
       <Contacts id="contacts" class="w-full" />
@@ -27,14 +27,13 @@
 </template>
 
 <script>
-import { VHeader, VFooter } from "@shared/ui/index.desktop";
+import { VHeader, VFooter, Products } from "@shared/ui/index.desktop";
 import MainPageDescription from "./components/MainPageDescription.desktop.vue";
 import Benefits from "./components/Benefits.vue";
 import Services from "./components/Services.vue";
 import Questions from "./components/Questions.vue";
 import Contacts from "./components/Contacts.vue";
 import Works from "./components/Works.vue";
-import Products from "./components/Products.desktop.vue";
 
 export default {
   name: "MainPage",

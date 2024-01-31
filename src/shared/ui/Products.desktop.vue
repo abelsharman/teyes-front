@@ -1,8 +1,22 @@
 <template>
   <div v-if="!isError">
-    <p class="text-gray-1 text-center text-[40px] font-bold mb-10">Товары</p>
+    <div class="flex items-center justify-between">
+      <p class="text-gray-1 text-center text-[40px] font-bold">Товары</p>
+      <button
+        v-if="!isAllProducts"
+        type="button"
+        class="text-white bg-gray-500 text-lg rounded-xl hover:bg-gray-600 duration-200 py-2.5 px-5"
+        @click="navigateToProductsPage"
+      >
+        Показать все
+      </button>
+    </div>
+    <div v-if="isAllProducts" class="w-full bg-gray-2 sticky mt-3 top-0 z-20 pt-2" >
+      <input v-model="searchProduct" class="w-1/2 py-4 text-lg mb-3 px-5 bg-gray-200 rounded-lg outline-none" placeholder="Поиск по продуктам"  />
+    </div>
+
     <div
-      class="flex items-start overflow-x-auto space-x-5 justify-between mb-10"
+      class="flex items-start overflow-x-auto space-x-5 mt-10 justify-between mb-10"
     >
       <button
         type="button"
@@ -19,8 +33,12 @@
         {{ category.name }}
       </button>
     </div>
-
-    <Carousel ref="productsCarousel" v-bind="settings" :wrap-around="true">
+    <Carousel
+      v-if="!isAllProducts"
+      ref="productsCarousel"
+      v-bind="settings"
+      :wrap-around="true"
+    >
       <Slide v-for="product in products" :key="product.slug">
         <div class="carousel__item">
           <Product
@@ -31,7 +49,7 @@
         </div>
       </Slide>
     </Carousel>
-    <div class="flex justify-end space-x-4 mt-12">
+    <div v-if="!isAllProducts" class="flex justify-end space-x-4 mt-12">
       <button type="button" @click="prevSlide">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -80,11 +98,22 @@
         </svg>
       </button>
     </div>
+
+    <div v-if="isAllProducts && filteredProducts.length > 0" class="grid grid-cols-4">
+      <Product
+        v-for="product in filteredProducts" :key="product.slug"
+        class="w-11/12 mx-auto first:mx-0 hover:scale-105 duration-200"
+        :info="product"
+        :category="selectedCategory"
+      />
+    </div>
+    <p v-else-if="isAllProducts" class="text-center text-lg font-semibold py-4">Ничего не найдено </p>
   </div>
 </template>
 
 <script setup>
 import { ref, onBeforeMount, computed } from "vue";
+import { useRouter } from "vue-router";
 import { Carousel, Pagination, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
 
@@ -92,10 +121,18 @@ import { _axios, categoriesData } from "@shared/libs";
 
 import Product from "./Product.vue";
 
+const props = defineProps({
+  isAllProducts: {
+    type: Boolean,
+    default: true,
+  },
+});
+const router = useRouter();
 const settings = ref({
   itemsToShow: 4,
   snapAlign: "start",
 });
+const searchProduct = ref(null);
 const categories = ref([
   {
     name: "Автомагнитолы",
@@ -125,9 +162,16 @@ const isLoading = ref(false);
 
 const products = computed(
   () =>
-    categories.value.find((c) => c.slug === selectedCategory.value?.slug)?.products ||
-    []
+    categories.value.find((c) => c.slug === selectedCategory.value?.slug)
+      ?.products || []
 );
+
+const filteredProducts = computed(() => {
+  if(searchProduct.value)  {
+    return products.value.filter(p => p.name.toLowerCase().includes(searchProduct.value.toLowerCase()))
+  }
+  return products.value
+})
 
 const selectCategory = (category) => {
   selectedCategory.value = category;
@@ -153,8 +197,8 @@ function fetchCategories() {
       isError.value = false;
     })
     .catch(() => {
-      isError.value = true;
-      // categories.value = categoriesData;
+      // isError.value = true;
+      categories.value = categoriesData;
     })
     .finally(() => {
       isLoading.value = false;
@@ -162,6 +206,12 @@ function fetchCategories() {
         selectedCategory.value = categories.value[0];
       }
     });
+}
+
+function navigateToProductsPage() {
+  router.push({
+    name: "ProductsPage",
+  });
 }
 </script>
 

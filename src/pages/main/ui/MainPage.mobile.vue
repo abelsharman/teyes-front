@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { VHeader, VFooter } from "@shared/ui/index.mobile";
+import { VHeader, VFooter, Products } from "@shared/ui/index.mobile";
 
 import MainPageDescription from "./components/MainPageDescription.desktop.vue";
 import Benefits from "./components/Benefits.vue";
@@ -25,7 +25,6 @@ import Services from "./components/Services.vue";
 import Questions from "./components/Questions.vue";
 import Contacts from "./components/Contacts.vue";
 import Works from "./components/Works.vue";
-import Products from "./components/Products.mobile.vue";
 
 export default {
   name: "MainPage",
