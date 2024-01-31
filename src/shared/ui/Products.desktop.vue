@@ -197,8 +197,8 @@ function fetchCategories() {
       isError.value = false;
     })
     .catch(() => {
-      // isError.value = true;
-      categories.value = categoriesData;
+      isError.value = true;
+      // categories.value = categoriesData;
     })
     .finally(() => {
       isLoading.value = false;
