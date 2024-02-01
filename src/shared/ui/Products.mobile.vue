@@ -45,7 +45,7 @@
 import { ref, onBeforeMount, computed } from "vue";
 import { useRouter } from "vue-router";
 
-import { _axios, categoriesData } from "@shared/libs";
+import { _axios, categoriesData, simpleCategoriesData, productsData } from "@shared/libs";
 
 import Product from "./Product.vue";
 
@@ -88,7 +88,11 @@ const isError = ref(false);
 const isLoading = ref(false);
 
 onBeforeMount(() => {
-  fetchCategories();
+  if (props.isAllProducts) {
+    fetchSimpleCategories();
+  } else {
+    fetchCategories();
+  }
 });
 
 function fetchCategories() {
@@ -107,6 +111,65 @@ function fetchCategories() {
     .finally(() => {
       isLoading.value = false;
     });
+}
+
+function fetchSimpleCategories(searchText) {
+  isLoading.value = true;
+  _axios("simple-categories/")
+    .then(({ data }) => {
+      const fetchPromises = data.map(category => fetchProductsByCategorySlug(category, searchText));
+
+      return Promise.all(fetchPromises)
+        .then(categoryProductPairs => {
+          categories.value = categoryProductPairs.map(pair => ({
+            ...pair.category,
+            products: pair.products
+          }));
+          allCategories.value = categories.value;
+          isError.value = false;
+        });
+    })
+    .catch(() => {
+      isError.value = true;
+    })
+    .finally(() => {
+      isLoading.value = false;
+    });
+}
+
+function fetchProductsByCategorySlug(category, searchText) {
+  return _axios(`products/${category.slug}`, {
+    params: {
+      search: searchText
+    }
+  })
+    .then(({ data }) => {
+      return { category, products: data.results };
+    })
+    .catch(error => {
+      console.error(`Error fetching products for category ${category.name}: ${error.message}`);
+      return { category, products: [] };
+    });
+}
+
+function debounce(func, delay = 500) {
+  let timeoutId;
+
+  return function (...args) {
+    clearTimeout(timeoutId);
+
+    timeoutId = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
+
+const debouncedFetch = debounce((search) => {
+  fetchProductsByCategorySlug(search);
+}); 
+
+function handleInput() {
+  debouncedFetch(searchProduct.value);
 }
 
 function navigateToProductsPage() {
