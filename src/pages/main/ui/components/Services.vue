@@ -18,7 +18,7 @@
           </p>
           <img
             :src="service.image"
-            class="w-[215px] h-[170px] ml-auto"
+            class="w-[215px] h-[170px] ml-auto object-contain"
             width="215"
             height="170"
             role="presentation"
