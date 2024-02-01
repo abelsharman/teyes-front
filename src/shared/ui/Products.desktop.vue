@@ -11,8 +11,16 @@
         Показать все
       </button>
     </div>
-    <div v-if="isAllProducts" class="w-full bg-gray-2 sticky mt-3 top-0 z-20 pt-2" >
-      <input v-model="searchProduct" class="w-1/2 py-4 text-lg mb-3 px-5 bg-gray-200 rounded-lg outline-none" placeholder="Поиск по продуктам"  />
+    <div
+      v-if="isAllProducts"
+      class="w-full bg-gray-2 sticky mt-3 top-0 z-20 pt-2"
+    >
+      <input
+        v-model="searchProduct"
+        class="w-1/2 py-4 text-lg mb-3 px-5 bg-gray-200 rounded-lg outline-none"
+        placeholder="Поиск по продуктам"
+        @input="handleInput"
+      />
     </div>
 
     <div
@@ -99,15 +107,24 @@
       </button>
     </div>
 
-    <div v-if="isAllProducts && filteredProducts.length > 0" class="grid grid-cols-4">
+    <div
+      v-if="isAllProducts && products.length > 0"
+      class="grid grid-cols-4 gap-y-4"
+    >
       <Product
-        v-for="product in filteredProducts" :key="product.slug"
-        class="w-11/12 mx-auto first:mx-0 hover:scale-105 duration-200"
+        v-for="product in products"
+        :key="product.slug"
+        class="w-11/12 mx-auto hover:scale-105 duration-200"
+        :class="{
+          'first:mx-0': !isAllProducts,
+        }"
         :info="product"
         :category="selectedCategory"
       />
     </div>
-    <p v-else-if="isAllProducts" class="text-center text-lg font-semibold py-4">Ничего не найдено </p>
+    <p v-else-if="isAllProducts" class="text-center text-lg font-semibold py-4">
+      Ничего не найдено 
+    </p>
   </div>
 </template>
 
@@ -117,7 +134,12 @@ import { useRouter } from "vue-router";
 import { Carousel, Pagination, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
 
-import { _axios, categoriesData } from "@shared/libs";
+import {
+  _axios,
+  categoriesData,
+  simpleCategoriesData,
+  productsData,
+} from "@shared/libs";
 
 import Product from "./Product.vue";
 
@@ -133,28 +155,7 @@ const settings = ref({
   snapAlign: "start",
 });
 const searchProduct = ref(null);
-const categories = ref([
-  {
-    name: "Автомагнитолы",
-    value: "Автомагнитолы",
-  },
-  {
-    name: "Камеры заднего вида",
-    value: "Камеры заднего вида",
-  },
-  {
-    name: "Камеры переднего вида",
-    value: "Камеры переднего вида",
-  },
-  {
-    name: "Камеры 360",
-    value: "Камеры 360",
-  },
-  {
-    name: "Видеорегистратор",
-    value: "Видеорегистратор",
-  },
-]);
+const categories = ref([]);
 const selectedCategory = ref({});
 const productsCarousel = ref(null);
 const isError = ref(false);
@@ -166,15 +167,10 @@ const products = computed(
       ?.products || []
 );
 
-const filteredProducts = computed(() => {
-  if(searchProduct.value)  {
-    return products.value.filter(p => p.name.toLowerCase().includes(searchProduct.value.toLowerCase()))
-  }
-  return products.value
-})
-
 const selectCategory = (category) => {
   selectedCategory.value = category;
+  searchProduct.value = undefined;
+  fetchProductsByCategorySlug(category);
 };
 
 const nextSlide = () => {
@@ -186,7 +182,11 @@ const prevSlide = () => {
 };
 
 onBeforeMount(() => {
-  fetchCategories();
+  if (props.isAllProducts) {
+    fetchSimpleCategories();
+  } else {
+    fetchCategories();
+  }
 });
 
 function fetchCategories() {
@@ -207,6 +207,70 @@ function fetchCategories() {
       }
     });
 }
+
+function fetchSimpleCategories() {
+  isLoading.value = true;
+  _axios("simple-categories/")
+    .then(({ data }) => {
+      categories.value = data;
+      isError.value = false;
+    })
+    .catch(() => {
+      isError.value = true;
+      // categories.value = simpleCategoriesData;
+    })
+    .finally(() => {
+      isLoading.value = false;
+      if (categories.value && categories.value.length > 0) {
+        selectedCategory.value = categories.value[0];
+        fetchProductsByCategorySlug(categories.value[0]);
+      }
+    });
+}
+
+function isCategoriesHasProducts(category) {
+  return category.products && category.products?.length > 0;
+}
+
+function fetchProductsByCategorySlug(category, searchText) {
+  const selectedCategoryIndex =
+    categories.value.findIndex((cat) => cat.slug === category.slug) || 0;
+  _axios(`products/${category.slug}/`, {
+    params: {
+      search: searchText,
+    },
+  })
+    .then(({ data }) => {
+      categories.value[selectedCategoryIndex].products = data;
+      isError.value = false;
+    })
+    .catch(() => {
+      isError.value = true;
+      // categories.value[selectedCategoryIndex].products = productsData;
+    });
+}
+
+function debounce(func, delay = 500) {
+  let timeoutId;
+
+  return function (...args) {
+    clearTimeout(timeoutId);
+
+    timeoutId = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
+
+const debouncedFetch = debounce((category, search) => {
+  fetchProductsByCategorySlug(category, search);
+}); 
+
+// Функция-обработчик
+function handleInput() {
+  debouncedFetch(selectedCategory.value, searchProduct.value);
+}
+
 
 function navigateToProductsPage() {
   router.push({
