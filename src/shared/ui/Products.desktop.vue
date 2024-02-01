@@ -241,7 +241,7 @@ function fetchProductsByCategorySlug(category, searchText) {
     },
   })
     .then(({ data }) => {
-      categories.value[selectedCategoryIndex].products = data;
+      categories.value[selectedCategoryIndex].products = data.results;
       isError.value = false;
     })
     .catch(() => {
