@@ -152,7 +152,7 @@ function debounce(func, delay = 500) {
 }
 
 const debouncedFetch = debounce((search) => {
-  fetchProductsByCategorySlug(search);
+  fetchSimpleCategories(search);
 }); 
 
 function handleInput() {
