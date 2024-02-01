@@ -59,26 +59,16 @@ const props = defineProps({
 const router = useRouter();
 const searchProduct = ref(null);
 const categories = ref([]);
-const allCategories = ref([]);
 const filteredCategories = computed(() => {
   if (props.isAllProducts) {
-    return allCategories.value.map((c) => {
-      const allProducts =
-        categories.value.find((category) => category.slug === c.slug)
-          ?.products || [];
-      const products = searchProduct.value
-        ? allProducts.filter((p) =>
-            p.name.toLowerCase().includes(searchProduct.value.toLowerCase())
-          )
-        : allProducts;
+    return categories.value.map((c) => {
       return {
         ...c,
-        isVisible: products.length > 0,
-        products,
+        isVisible: c.products?.length > 0,
       };
     });
   }
-  return allCategories.value.map(c => {
+  return categories.value.map(c => {
     return {
       ...c, isVisible: true
     }
@@ -100,13 +90,11 @@ function fetchCategories() {
   _axios("categories/")
     .then(({ data }) => {
       categories.value = data;
-      allCategories.value = data;
       isError.value = false;
     })
     .catch(() => {
       isError.value = true;
       // categories.value = categoriesData;
-      // allCategories.value = categoriesData;
     })
     .finally(() => {
       isLoading.value = false;
@@ -125,7 +113,6 @@ function fetchSimpleCategories(searchText) {
             ...pair.category,
             products: pair.products
           }));
-          allCategories.value = categories.value;
           isError.value = false;
         });
     })
