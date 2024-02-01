@@ -19,6 +19,7 @@
         v-model="searchProduct"
         class="w-full py-4 text-base mb-3 px-5 bg-gray-200 rounded-lg outline-none"
         placeholder="Поиск по продуктам"
+        @input="handleInput"
       />
     </div>
     <div class="space-y-7 mt-6 pl-4">
