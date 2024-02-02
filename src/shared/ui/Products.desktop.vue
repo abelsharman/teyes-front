@@ -121,6 +121,7 @@
         :info="product"
         :category="selectedCategory"
       />
+      <InfiniteScroll @onIntersect="fetchSimpleCategories" />
     </div>
     <p v-else-if="isAllProducts" class="text-center text-lg font-semibold py-4">
       Ничего не найдено 
@@ -140,6 +141,8 @@ import {
   simpleCategoriesData,
   productsData,
 } from "@shared/libs";
+
+import { InfiniteScroll } from "@shared/ui/index.desktop.ts";
 
 import Product from "./Product.vue";
 
@@ -168,6 +171,11 @@ const products = computed(
 );
 
 const selectCategory = (category) => {
+  const selectedCategoryIndex =
+    categories.value.findIndex((cat) => cat.slug === category.slug) || 0;
+
+  categories.value[selectedCategoryIndex].cursor = null;
+  delete categories.value[selectedCategoryIndex].products;
   selectedCategory.value = category;
   searchProduct.value = undefined;
   fetchProductsByCategorySlug(category);
@@ -197,8 +205,8 @@ function fetchCategories() {
       isError.value = false;
     })
     .catch(() => {
-      isError.value = true;
-      // categories.value = categoriesData;
+      // isError.value = true;
+      categories.value = categoriesData;
     })
     .finally(() => {
       isLoading.value = false;
@@ -235,18 +243,33 @@ function isCategoriesHasProducts(category) {
 function fetchProductsByCategorySlug(category, searchText) {
   const selectedCategoryIndex =
     categories.value.findIndex((cat) => cat.slug === category.slug) || 0;
+  const params = {
+    search: searchText,
+    page_size: 12,
+  };
+  if (categories.value[selectedCategoryIndex].cursor) {
+    params.cursor = categories.value[selectedCategoryIndex].cursor;
+  }
   _axios(`products/${category.slug}/`, {
-    params: {
-      search: searchText,
-    },
+    params,
   })
     .then(({ data }) => {
-      categories.value[selectedCategoryIndex].products = data.results;
+      if (categories.value[selectedCategoryIndex].products) {
+        categories.value[selectedCategoryIndex].products = [
+          ...categories.value[selectedCategoryIndex].products,
+          ...data.results,
+        ];
+      } else {
+        categories.value[selectedCategoryIndex].products = data.results;
+      }
+      const url = new URL(data.next);
+      categories.value[selectedCategoryIndex].cursor =
+        url.searchParams.get("cursor");
       isError.value = false;
     })
     .catch(() => {
-      isError.value = true;
-      // categories.value[selectedCategoryIndex].products = productsData;
+      // isError.value = true;
+      categories.value[selectedCategoryIndex].products = productsData;
     });
 }
 
@@ -264,13 +287,12 @@ function debounce(func, delay = 500) {
 
 const debouncedFetch = debounce((category, search) => {
   fetchProductsByCategorySlug(category, search);
-}); 
+});
 
 // Функция-обработчик
 function handleInput() {
   debouncedFetch(selectedCategory.value, searchProduct.value);
 }
-
 
 function navigateToProductsPage() {
   router.push({
