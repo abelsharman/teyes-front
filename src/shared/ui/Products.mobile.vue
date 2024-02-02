@@ -135,6 +135,7 @@ function fetchProductsByCategorySlug(category, searchText) {
     search: searchText,
     page_size: 12,
   }
+  console.log(category);
   if (category.cursor) {
     params.cursor = category.cursor;
   }
@@ -145,7 +146,7 @@ function fetchProductsByCategorySlug(category, searchText) {
     .then(({ data }) => {
       isFetching.value = false;
       const products = category.products ? [ ...category.products, ...data.results ] : data.results;
-      console.log(data.next, data, products, category.products);
+      console.log(data, products, category.products);
       const url = new URL(data.next);
       return { category, products, cursor: url.searchParams.get("cursor") };
     })
