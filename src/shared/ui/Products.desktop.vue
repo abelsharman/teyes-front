@@ -291,6 +291,11 @@ const debouncedFetch = debounce((category, search) => {
 
 // Функция-обработчик
 function handleInput() {
+  const selectedCategoryIndex =
+    categories.value.findIndex((cat) => cat.slug === category.slug) || 0;
+  categories.value[selectedCategoryIndex].cursor = null;
+  delete categories.value[selectedCategoryIndex].products;
+
   debouncedFetch(selectedCategory.value, searchProduct.value);
 }
 
