@@ -254,7 +254,7 @@ function fetchProductsByCategorySlug(category, searchText) {
   if (categories.value[selectedCategoryIndex].cursor) {
     params.cursor = categories.value[selectedCategoryIndex].cursor;
   }
-  if(categories.value[selectedCategoryIndex].isLastPage) {
+  if(categories.value[selectedCategoryIndex].products && categories.value[selectedCategoryIndex].isLastPage) {
     return;
   }
   isFetching.value = true;
