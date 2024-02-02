@@ -254,6 +254,9 @@ function fetchProductsByCategorySlug(category, searchText) {
   if (categories.value[selectedCategoryIndex].cursor) {
     params.cursor = categories.value[selectedCategoryIndex].cursor;
   }
+  if(categories.value[selectedCategoryIndex].isLastPage) {
+    return;
+  }
   isFetching.value = true;
   _axios(`products/${category.slug}/`, {
     params,
@@ -268,8 +271,9 @@ function fetchProductsByCategorySlug(category, searchText) {
         categories.value[selectedCategoryIndex].products = data.results;
       }
       const url =data.next ? new URL(data.next) : {};
-      categories.value[selectedCategoryIndex].cursor =
-        url?.searchParams?.get("cursor");
+      const cursor = url?.searchParams?.get("cursor");
+      categories.value[selectedCategoryIndex].cursor = cursor;
+      categories.value[selectedCategoryIndex].isLastPage = cursor ? false : true;
       isError.value = false;
       isFetching.value = false;
     })

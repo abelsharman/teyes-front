@@ -117,7 +117,8 @@ function fetchSimpleCategories(searchText) {
           categories.value = categoryProductPairs.map(pair => ({
             ...pair.category,
             cursor: pair.cursor,
-            products: pair.products
+            products: pair.products,
+            isLastPage: pair.isLastPage
           }));
           isError.value = false;
         });
@@ -138,6 +139,9 @@ function fetchProductsByCategorySlug(category, searchText) {
   if (category.cursor) {
     params.cursor = category.cursor;
   }
+  if(category.isLastPage) {
+    return;
+  }
   isFetching.value = true;
   return _axios(`products/${category.slug}`, {
     params
@@ -146,15 +150,17 @@ function fetchProductsByCategorySlug(category, searchText) {
       isFetching.value = false;
       const products = category.products ? [ ...category.products, ...data.results ] : data.results;
       const url = data.next ? new URL(data.next) : {};
+      const cursor = url?.searchParams?.get("cursor");
       if(category.products) {
         category.products = products;
         category.cursor = url?.searchParams?.get("cursor");
+        category.isLastPage = cursor ? false : true;
       }
-      return { category, products, cursor: url?.searchParams?.get("cursor") };
+      return { category, products, cursor: url?.searchParams?.get("cursor"), isLastPage: cursor ? false : true };
     })
     .catch(error => {
       console.error(`Error fetching products for category ${category.name}: ${error.message}`);
-      return { category, products: [], cursor: null };
+      return { category, products: [], cursor: null, isLastPage: true };
     });
 }
 
