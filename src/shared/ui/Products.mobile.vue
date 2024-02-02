@@ -135,7 +135,6 @@ function fetchProductsByCategorySlug(category, searchText) {
     search: searchText,
     page_size: 12,
   }
-  console.log(category);
   if (category.cursor) {
     params.cursor = category.cursor;
   }
@@ -146,13 +145,16 @@ function fetchProductsByCategorySlug(category, searchText) {
     .then(({ data }) => {
       isFetching.value = false;
       const products = category.products ? [ ...category.products, ...data.results ] : data.results;
-      console.log(data, products, category.products);
       const url = new URL(data.next);
+      if(category.products) {
+        category.products = products;
+        category.cursor = url.searchParams.get("cursor");
+      }
       return { category, products, cursor: url.searchParams.get("cursor") };
     })
     .catch(error => {
       console.error(`Error fetching products for category ${category.name}: ${error.message}`);
-      return { category, products: [] };
+      return { category, products: [], cursor: null };
     });
 }
 
