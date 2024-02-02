@@ -35,7 +35,9 @@
               :info="product"
               :category="category"
               class="w-[309px] min-w-[309px]"
-            /></div
+            />
+            <InfiniteScroll :is-fetching="isFetching" @onIntersect="onIntersect(category)" />
+            </div
         ></template>
       </div>
     </div>
@@ -47,6 +49,7 @@ import { ref, onBeforeMount, computed } from "vue";
 import { useRouter } from "vue-router";
 
 import { _axios, categoriesData, simpleCategoriesData, productsData } from "@shared/libs";
+import { InfiniteScroll } from "@shared/ui/index.desktop.ts";
 
 import Product from "./Product.vue";
 
@@ -77,6 +80,7 @@ const filteredCategories = computed(() => {
 });
 const isError = ref(false);
 const isLoading = ref(false);
+const isFetching = ref(false);
 
 onBeforeMount(() => {
   if (props.isAllProducts) {
@@ -126,13 +130,21 @@ function fetchSimpleCategories(searchText) {
 }
 
 function fetchProductsByCategorySlug(category, searchText) {
+  const params = {
+    search: searchText,
+    page_size: 12,
+  }
+  if (category.cursor) {
+    params.cursor = category.cursor;
+  }
+  isFetching.value = true;
   return _axios(`products/${category.slug}`, {
-    params: {
-      search: searchText
-    }
+    params
   })
     .then(({ data }) => {
-      return { category, products: data.results };
+      isFetching.value = false;
+      const products = category.products ? [ ...category.products, ...data.results ] : data.results;
+      return { category, products };
     })
     .catch(error => {
       console.error(`Error fetching products for category ${category.name}: ${error.message}`);
@@ -157,7 +169,19 @@ const debouncedFetch = debounce((search) => {
 }); 
 
 function handleInput() {
+  categories.value = categories.value.map(c => {
+    return {
+      ...c, 
+      cursor: null, 
+      products: []
+    }
+  })
+
   debouncedFetch(searchProduct.value);
+}
+
+function onIntersect(category) {
+  fetchProductsByCategorySlug(category, searchProduct.value)
 }
 
 function navigateToProductsPage() {
