@@ -121,7 +121,7 @@
         :info="product"
         :category="selectedCategory"
       />
-      <InfiniteScroll :is-fetching="isFetching" @onIntersect="onIntersect" />
+      <InfiniteScroll v-if="products.length > 0" :is-fetching="isFetching" @onIntersect="onIntersect" />
     </div>
     <p v-else-if="isAllProducts" class="text-center text-lg font-semibold py-4">
       Ничего не найдено 
