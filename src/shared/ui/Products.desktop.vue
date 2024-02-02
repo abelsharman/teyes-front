@@ -121,7 +121,7 @@
         :info="product"
         :category="selectedCategory"
       />
-      <InfiniteScroll @onIntersect="fetchSimpleCategories" />
+      <InfiniteScroll :is-fetching="isFetching" @onIntersect="onIntersect" />
     </div>
     <p v-else-if="isAllProducts" class="text-center text-lg font-semibold py-4">
       Ничего не найдено 
@@ -163,6 +163,7 @@ const selectedCategory = ref({});
 const productsCarousel = ref(null);
 const isError = ref(false);
 const isLoading = ref(false);
+const isFetching = ref(false);
 
 const products = computed(
   () =>
@@ -240,6 +241,10 @@ function isCategoriesHasProducts(category) {
   return category.products && category.products?.length > 0;
 }
 
+function onIntersect() {
+  fetchProductsByCategorySlug(selectedCategory.value);
+}
+
 function fetchProductsByCategorySlug(category, searchText) {
   const selectedCategoryIndex =
     categories.value.findIndex((cat) => cat.slug === category.slug) || 0;
@@ -250,6 +255,7 @@ function fetchProductsByCategorySlug(category, searchText) {
   if (categories.value[selectedCategoryIndex].cursor) {
     params.cursor = categories.value[selectedCategoryIndex].cursor;
   }
+  isFetching.value = true;
   _axios(`products/${category.slug}/`, {
     params,
   })
@@ -266,6 +272,7 @@ function fetchProductsByCategorySlug(category, searchText) {
       categories.value[selectedCategoryIndex].cursor =
         url.searchParams.get("cursor");
       isError.value = false;
+      isFetching.value = false;
     })
     .catch(() => {
       // isError.value = true;
