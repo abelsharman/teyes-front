@@ -23,7 +23,7 @@
       />
     </div>
     <div class="space-y-7 mt-6 pl-4">
-      <div v-for="category in filteredCategories" :key="category.slug">
+      <div v-for="category in filteredCategories" :key="category.slug + '_' + category.cursor">
         <template v-if="category.isVisible">
           <p class="mb-6 text-red-1 text-lg font-bold">{{ category.name }}</p>
           <div
