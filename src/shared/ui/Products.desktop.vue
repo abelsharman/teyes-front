@@ -267,9 +267,9 @@ function fetchProductsByCategorySlug(category, searchText) {
       } else {
         categories.value[selectedCategoryIndex].products = data.results;
       }
-      const url = new URL(data.next);
+      const url =data.next ? new URL(data.next) : {};
       categories.value[selectedCategoryIndex].cursor =
-        url.searchParams.get("cursor");
+        url?.searchParams?.get("cursor");
       isError.value = false;
       isFetching.value = false;
     })
