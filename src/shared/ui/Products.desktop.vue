@@ -242,7 +242,7 @@ function isCategoriesHasProducts(category) {
 }
 
 function onIntersect() {
-  fetchProductsByCategorySlug(selectedCategory.value);
+  fetchProductsByCategorySlug(selectedCategory.value, searchProduct.value);
 }
 
 function fetchProductsByCategorySlug(category, searchText) {
