@@ -116,6 +116,7 @@ function fetchSimpleCategories(searchText) {
         .then(categoryProductPairs => {
           categories.value = categoryProductPairs.map(pair => ({
             ...pair.category,
+            cursor: pair.cursor,
             products: pair.products
           }));
           isError.value = false;
@@ -144,7 +145,9 @@ function fetchProductsByCategorySlug(category, searchText) {
     .then(({ data }) => {
       isFetching.value = false;
       const products = category.products ? [ ...category.products, ...data.results ] : data.results;
-      return { category, products };
+      
+      const url = new URL(data.next);
+      return { category, products, cursor: url.searchParams.get("cursor") };
     })
     .catch(error => {
       console.error(`Error fetching products for category ${category.name}: ${error.message}`);
