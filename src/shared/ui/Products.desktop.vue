@@ -274,7 +274,7 @@ function fetchProductsByCategorySlug(category, searchText) {
       isFetching.value = false;
     })
     .catch(() => {
-      isError.value = true;
+      // isError.value = true;
       // categories.value[selectedCategoryIndex].products = productsData;
     });
 }
