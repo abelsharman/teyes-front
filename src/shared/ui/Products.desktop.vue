@@ -107,22 +107,21 @@
       </button>
     </div>
 
-    <div
-      v-if="isAllProducts && products.length > 0"
-      class="grid grid-cols-4 gap-y-4"
-    >
-      <Product
-        v-for="product in products"
-        :key="product.slug"
-        class="w-11/12 mx-auto hover:scale-105 duration-200"
-        :class="{
-          'first:mx-0': !isAllProducts,
-        }"
-        :info="product"
-        :category="selectedCategory"
-      />
-      <InfiniteScroll v-if="products.length > 0" :is-fetching="isFetching" @onIntersect="onIntersect" />
-    </div>
+    <template v-if="isAllProducts && products.length > 0">
+      <div class="grid grid-cols-4 gap-y-4">
+        <Product
+          v-for="product in products"
+          :key="product.slug"
+          class="w-11/12 mx-auto hover:scale-105 duration-200"
+          :class="{
+            'first:mx-0': !isAllProducts,
+          }"
+          :info="product"
+          :category="selectedCategory"
+        />
+      </div>
+      <InfiniteScroll :is-fetching="isFetching" @onIntersect="onIntersect" />
+    </template>
     <p v-else-if="isAllProducts" class="text-center text-lg font-semibold py-4">
       Ничего не найдено 
     </p>
@@ -299,7 +298,9 @@ const debouncedFetch = debounce((category, search) => {
 // Функция-обработчик
 function handleInput() {
   const selectedCategoryIndex =
-    categories.value.findIndex((cat) => cat.slug === selectedCategory.value.slug) || 0;
+    categories.value.findIndex(
+      (cat) => cat.slug === selectedCategory.value.slug
+    ) || 0;
   categories.value[selectedCategoryIndex].cursor = null;
   delete categories.value[selectedCategoryIndex].products;
 
