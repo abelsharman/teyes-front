@@ -130,7 +130,6 @@
 
 <script setup>
 import { ref, onBeforeMount, computed } from "vue";
-import { useRouter } from "vue-router";
 import { Carousel, Pagination, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
 
@@ -151,7 +150,6 @@ const props = defineProps({
     default: true,
   },
 });
-const router = useRouter();
 const settings = ref({
   itemsToShow: 4,
   snapAlign: "start",
@@ -312,9 +310,7 @@ function handleInput() {
 }
 
 function navigateToProductsPage() {
-  router.push({
-    name: "ProductsPage",
-  });
+  window.location.href = `/products`
 }
 </script>
 

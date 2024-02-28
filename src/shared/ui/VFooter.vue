@@ -11,13 +11,15 @@
       />
     </a>
     <div class="md:block hidden">
-      <a href="/" class="mb-4 block font-medium text-[20px]">Главная</a>
-      <div class="space-y-2 text-base flex flex-col">
-        <router-link to="/" v-scroll-to="'#why-we'">Почему мы?</router-link>
-        <router-link to="/" v-scroll-to="'#services'">Наши услуги</router-link>
-        <router-link to="/" v-scroll-to="'#products'">Товары</router-link>
-        <router-link to="/" v-scroll-to="'#works'">Наши работы</router-link>
+      <button type="button" class="mb-4 block font-medium text-[20px]" @click="onNavigate('#main')" >Главная</button>
+
+      <div class="space-y-2 items-start text-base flex flex-col">
+        <button type="button" @click="onNavigate('#why-we')" >Почему мы?</button>
+        <button type="button" @click="onNavigate('#services')" >Наши услуги</button>
+        <button type="button" @click="onNavigate('#products')" >Товары</button>
+        <button type="button" @click="onNavigate('#works')">Наши работы</button>
       </div>
+
     </div>
 
     <div>
@@ -107,8 +109,14 @@ import VueScrollTo from "vue-scrollto";
 
 export default {
   name: "VFooter",
-  directives: {
-    VueScrollTo,
-  },
+  methods: {
+    onNavigate(element) {
+      if(window.location.pathname === '/') {
+        VueScrollTo.scrollTo(element)
+      } else {
+        window.location.href = '/'
+      }
+    }
+  }
 };
 </script>

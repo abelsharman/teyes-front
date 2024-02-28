@@ -35,13 +35,7 @@ export default {
   methods: {
     prettyPrice,
     navToProduct() {
-      this.$router.push({
-        name: "ProductPage",
-        params: {
-          product_slug: this.info.slug,
-          category_slug: this.category.slug
-        },
-      });
+      window.location.href = `/product/${this.category.slug}/${this.info.slug}`
     },
   },
 };

@@ -79,12 +79,12 @@
       <div
         class="flex items-center space-x-10 text-gray-1 text-base font-medium"
       >
-        <router-link to="/" v-scroll-to="'#main'">Главная</router-link>
-        <router-link to="/" v-scroll-to="'#why-we'">Почему мы?</router-link>
-        <router-link to="/" v-scroll-to="'#services'">Наши услуги</router-link>
-        <router-link to="/" v-scroll-to="'#products'">Товары</router-link>
-        <router-link to="/" v-scroll-to="'#works'">Наши работы</router-link>
-        <router-link to="/" v-scroll-to="'#contacts'">Контакты</router-link>
+        <button type="button" @click="onNavigate('#main')" >Главная</button>
+        <button type="button" @click="onNavigate('#why-we')" >Почему мы?</button>
+        <button type="button" @click="onNavigate('#services')" >Наши услуги</button>
+        <button type="button" @click="onNavigate('#products')" >Товары</button>
+        <button type="button" @click="onNavigate('#works')">Наши работы</button>
+        <button type="button" @click="onNavigate('#contacts')">Контакты</button>
       </div>
       <button
         type="button"
@@ -102,8 +102,14 @@ import VueScrollTo from 'vue-scrollto';
 
 export default {
   name: 'VHeader',
-  directives: {
-    VueScrollTo
+  methods: {
+    onNavigate(element) {
+      if(window.location.pathname === '/') {
+        VueScrollTo.scrollTo(element)
+      } else {
+        window.location.href = '/'
+      }
+    }
   }
 }
 </script>

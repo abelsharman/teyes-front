@@ -1,0 +1,12 @@
+
+:root {
+  font-size: 16px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.desktop-wrapper-1300 {
+  @apply w-[1300px] mx-auto;
+}
+.desktop-wrapper-1200 {
+  @apply w-[1200px] mx-auto;
+}

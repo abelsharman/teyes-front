@@ -1,0 +1,24 @@
+.vh-screen {
+  height: 100vh; /* Fallback */
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+.max-vh-screen {
+  max-height: 100vh; /* Fallback */
+  max-height: calc(var(--vh, 1vh) * 100);
+}
+
+.min-vh-screen {
+  min-height: 100vh; /* Fallback */
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+.vh-content {
+  height: calc(100vh - 40px); /* Fallback */
+  height: calc(calc(var(--vh, 1vh) * 100) - 40px);
+}
+
+.min-vh-content {
+  min-height: calc(100vh - 40px); /* Fallback */
+  min-height: calc(calc(var(--vh, 1vh) * 100) - 40px);
+}

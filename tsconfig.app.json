@@ -1,12 +1,28 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
-  "exclude": ["src/**/__tests__/*"],
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/**/*.json",
+    "src/**/*.ts"
+  ],
+  "exclude": ["src/**/__tests__/*", "src/**/tests/*"],
   "compilerOptions": {
+    "strict": true,
     "composite": true,
+    "lib": ["esnext", "dom"],
     "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@assets/*": ["./src/shared/assets/*"],
+      "@packages/*": ["./src/packages/*"],
+      "@icons/*": ["./src/shared/assets/images/icons/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@features/*": ["./src/features/*"],
+      "@widgets/*": ["./src/widgets/*"]
     }
   }
 }

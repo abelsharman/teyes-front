@@ -1,0 +1,48 @@
+@import 'vh.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.tap-highlight-color-none {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  @apply tap-highlight-color-none;
+}
+
+body {
+  @apply overscroll-none overflow-x-hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e7d6d6; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(151, 144, 144); 
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.desktop-wrapper {
+  @apply mx-auto;
+  width: 1200px;
+}

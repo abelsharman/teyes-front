@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+.husky
+.vscode
+.gitlab
+dist
+build
+dist-ssr
+*.local
+deploy/
+.gitlab-ci.yml
+public/
+server/static

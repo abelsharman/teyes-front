@@ -46,7 +46,6 @@
 
 <script setup>
 import { ref, onBeforeMount, computed } from "vue";
-import { useRouter } from "vue-router";
 
 import { _axios, categoriesData, simpleCategoriesData, productsData } from "@shared/libs";
 import { InfiniteScroll } from "@shared/ui/index.desktop.ts";
@@ -60,7 +59,6 @@ const props = defineProps({
   },
 });
 
-const router = useRouter();
 const searchProduct = ref(null);
 const categories = ref([]);
 const filteredCategories = computed(() => {
@@ -197,8 +195,6 @@ function onIntersect(category) {
 }
 
 function navigateToProductsPage() {
-  router.push({
-    name: "ProductsPage",
-  });
+  window.location.href = `/products`
 }
 </script>

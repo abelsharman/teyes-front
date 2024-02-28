@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-2">
     <div class="py-2 pl-4">
-      <button type="button" @click="setIsHeaderVisible">
+      <button type="button" @click="setIsHeaderVisible(null)">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -17,46 +17,35 @@
       </button>
     </div>
     <div
-      class="h-[calc(100vh-46px)] pt-6 bg-gray-2 w-full fixed top-[46px] duration-46 px-4"
+      class="h-[calc(100vh-46px)] pt-6 bg-gray-2 w-full fixed top-[46px] duration-200 px-4"
       :class="isHeaderVisible ? 'left-0 opacity-100' : '-left-full opacity-0'"
     >
-      <div class="space-y-6 flex flex-col text-gray-1 text-[20px] font-medium">
-        <router-link
-          to="/"
-          v-scroll-to="{ el: '#main', offset: -46 }"
-          @click="setIsHeaderVisible"
-          >Главная</router-link
+      <div class="space-y-6 items-start flex flex-col text-gray-1 text-[20px] font-medium">
+        <button
+        type="button"
+          @click="setIsHeaderVisible('#main')"
+          >Главная</button
         >
-        <router-link
-          to="/"
-          v-scroll-to="{ el: '#why-we', offset: -46 }"
-          @click="setIsHeaderVisible"
-          >Почему мы?</router-link
-        >
-        <router-link
-          to="/"
-          v-scroll-to="{ el: '#services', offset: -46 }"
-          @click="setIsHeaderVisible"
-          >Наши услуги</router-link
-        >
-        <router-link
-          to="/"
-          v-scroll-to="{ el: '#products', offset: -46 }"
-          @click="setIsHeaderVisible"
-          >Товары</router-link
-        >
-        <router-link
-          to="/"
-          v-scroll-to="{ el: '#works', offset: -46 }"
-          @click="setIsHeaderVisible"
-          >Наши работы</router-link
-        >
-        <router-link
-          to="/"
-          v-scroll-to="{ el: '#contacts', offset: -46 }"
-          @click="setIsHeaderVisible"
-          >Контакты</router-link
-        >
+        <button
+        type="button"
+          @click="setIsHeaderVisible('#why-we')"
+          >Почему мы?</button>
+        <button
+        type="button"
+          @click="setIsHeaderVisible('#services')"
+          >Наши услуги</button>
+        <button
+        type="button"
+          @click="setIsHeaderVisible('#products')"
+          >Товары</button>
+        <button
+        type="button"
+          @click="setIsHeaderVisible('#works')"
+          >Наши работы</button>
+        <button
+        type="button"
+          @click="setIsHeaderVisible('#contacts')"
+          >Контакты</button>
       </div>
       <div class="space-y-7 mt-7 text-sm text-gray-1 text-opacity-70">
         <div class="flex space-x-2">
@@ -128,7 +117,7 @@
       <button
         type="button"
         class="py-3 w-full mt-12 rounded-lg text-lg font-semibold text-white bg-red-1 leading-8 hover:bg-red-2 duration-46"
-        @click="$emit('onNavToWhatsapp')" 
+        @click="$emit('onNavToWhatsapp')"
       >
         Написать в WhatsApp
       </button>
@@ -142,12 +131,21 @@ import { ref } from "vue";
 
 const isHeaderVisible = ref(false);
 
-const setIsHeaderVisible = () => {
+const setIsHeaderVisible = (element) => {
+  console.log(element);
+  if(element && window.location.pathname !== '/') {
+    return window.location.href = '/';    
+  }
+
   isHeaderVisible.value = !isHeaderVisible.value;
   if (isHeaderVisible.value) {
     document.body.classList.add("overflow-hidden");
   } else {
     document.body.classList.remove("overflow-hidden");
+    if(element) {
+      VueScrollTo.scrollTo(element, 200, { offset: -46 });
+    }
   }
+
 };
 </script>

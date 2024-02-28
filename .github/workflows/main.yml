@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: 16.17.0  
+          node-version: 16.18.1
       - name: Git clone my repo
         uses: actions/checkout@v1
 
@@ -29,9 +29,9 @@ jobs:
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          source: "server,public,src,index.html,package-json,vite.config.ts,tailwind.config.js,postcss.config.js"
-          target: "/var/www/front/teyes-front"
-      
+          source: 'server,public,src,server,_default.page.server.js,index.html,package-json,vite.config.ts,tailwind.config.js,postcss.config.js'
+          target: '/var/www/front/teyes-front'
+
       - name: Connect to server
         uses: appleboy/ssh-action@master
         with:
@@ -44,6 +44,6 @@ jobs:
             source ~/.nvm/nvm.sh
             cd /var/www/front/teyes-front
             npm install
-            npm run build-only:production
+            npm run build:production
             cd server/
-            pm2 restart TeyesFront.js
+            pm2 restart app.js --name TeyesFront
