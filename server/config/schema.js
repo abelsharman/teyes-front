@@ -74,7 +74,7 @@ const schema = {
     doc: 'Prefix for static files',
     format: 'String',
     env: 'SERVER_STATIC_PREFIX',
-    default: '/static',
+    default: '/static-front',
   },
 };
 

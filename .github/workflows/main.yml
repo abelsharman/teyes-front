@@ -45,6 +45,5 @@ jobs:
             cd /var/www/front/teyes-front
             npm install
             npm run build:production
-            cd server/
             pm2 delete all
             pm2 start npm --name Teyes  -- run start-server
