@@ -3,6 +3,7 @@ import { createPinia } from 'pinia';
 import VueScrollTo from 'vue-scrollto'
 
 import '@shared/css/tailwind.css';
+import '@/assets/tailwind.css';
 import '@shared/css/transitions.css';
 import 'izitoast/dist/css/iziToast.min.css';
 

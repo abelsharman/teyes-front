@@ -46,4 +46,4 @@ jobs:
             npm install
             npm run build:production
             cd server/
-            pm2 restart app.js --name TeyesFront
+            pm2 restart index.js --name TeyesFront
