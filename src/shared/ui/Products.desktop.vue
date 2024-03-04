@@ -1,7 +1,9 @@
 <template>
   <div v-if="!isError">
     <div class="flex items-center justify-between">
-      <p class="text-gray-1 text-center text-[40px] font-bold">Товары</p>
+      <p class="text-gray-1 text-center text-[40px] font-bold">
+        {{ type === WIDE ? 'WIDE' : type === TEYES ? 'TEYES' : 'RED POWER' }}
+      </p>
       <button
         v-if="!isAllProducts"
         type="button"
@@ -24,17 +26,17 @@
     </div>
 
     <div
-      class="flex items-start overflow-x-auto space-x-5 mt-10 justify-between mb-10"
+      class="flex items-start pb-4 overflow-x-auto space-x-5 mt-10 justify-between mb-10"
     >
       <button
         type="button"
         v-for="category in categories"
         :key="category.slug"
-        class="pb-1.5 border-b-2 text-lg duration-200"
+        class="py-1 px-2.5 border min-w-max rounded-xl text-lg border-red-1 duration-200 font-bold"
         :class="
           selectedCategory.slug === category.slug
-            ? 'text-red-1 border-red-1 font-bold'
-            : 'text-gray-1 border-transparent font-medium'
+            ? 'bg-red-1 text-white'
+            : 'bg-white text-red-1'
         "
         @click="selectCategory(category)"
       >
@@ -53,6 +55,7 @@
             class="w-11/12 mx-auto first:mx-0 hover:scale-105 duration-200"
             :info="product"
             :category="selectedCategory"
+            :type="type"
           />
         </div>
       </Slide>
@@ -118,6 +121,7 @@
           }"
           :info="product"
           :category="selectedCategory"
+          :type="type"
         />
       </div>
       <InfiniteScroll :is-fetching="isFetching" @onIntersect="onIntersect" />
@@ -142,13 +146,18 @@ import {
 
 import { InfiniteScroll } from "@shared/ui/index.desktop.ts";
 
-import Product from "./Product.vue";
+import { WIDE, TEYES, RED_POWER } from '../config';
+import Product from './Product.vue';
 
 const props = defineProps({
   isAllProducts: {
     type: Boolean,
     default: true,
   },
+  type: {
+    type: String,
+    default: WIDE
+  }
 });
 const settings = ref({
   itemsToShow: 4,
@@ -164,16 +173,26 @@ const isFetching = ref(false);
 
 const products = computed(
   () =>
-    categories.value.find((c) => c.slug === selectedCategory.value?.slug)
-      ?.products || []
+    {
+      const category = categories.value.find((c) => c.slug === selectedCategory.value?.slug);
+      if(props.type === WIDE) {
+        return category?.products || []
+      } else if(props.type === TEYES) {
+        return category?.teyes || []
+      }
+      return category?.redpower || []
+    }
 );
+
+const prefixUrl = computed(() => props.type === WIDE ? '' : props.type === TEYES ? 'teyes/' : 'redpower/')
+const postfixInfo = computed(() => props.type === WIDE ? 'products' : props.type === TEYES ? 'teyes' : 'redpower')
 
 const selectCategory = (category) => {
   const selectedCategoryIndex =
     categories.value.findIndex((cat) => cat.slug === category.slug) || 0;
 
   categories.value[selectedCategoryIndex].cursor = null;
-  delete categories.value[selectedCategoryIndex].products;
+  delete categories.value[selectedCategoryIndex][postfixInfo.value];
   selectedCategory.value = category;
   searchProduct.value = undefined;
   fetchProductsByCategorySlug(category);
@@ -197,14 +216,14 @@ onBeforeMount(() => {
 
 function fetchCategories() {
   isLoading.value = true;
-  _axios("categories/")
+  _axios(`${prefixUrl.value}categories/`)
     .then(({ data }) => {
       categories.value = data;
       isError.value = false;
     })
     .catch(() => {
-      // isError.value = true;
-      categories.value = categoriesData;
+      isError.value = true;
+      // categories.value = categoriesData;
     })
     .finally(() => {
       isLoading.value = false;
@@ -216,7 +235,7 @@ function fetchCategories() {
 
 function fetchSimpleCategories() {
   isLoading.value = true;
-  _axios("simple-categories/")
+  _axios(`${prefixUrl.value}simple-categories/`)
     .then(({ data }) => {
       categories.value = data;
       isError.value = false;
@@ -234,9 +253,6 @@ function fetchSimpleCategories() {
     });
 }
 
-function isCategoriesHasProducts(category) {
-  return category.products && category.products?.length > 0;
-}
 
 function onIntersect() {
   fetchProductsByCategorySlug(selectedCategory.value, searchProduct.value);
@@ -252,21 +268,21 @@ function fetchProductsByCategorySlug(category, searchText) {
   if (categories.value[selectedCategoryIndex].cursor) {
     params.cursor = categories.value[selectedCategoryIndex].cursor;
   }
-  if(categories.value[selectedCategoryIndex].products && categories.value[selectedCategoryIndex].isLastPage) {
+  if(categories.value[selectedCategoryIndex][postfixInfo.value] && categories.value[selectedCategoryIndex].isLastPage) {
     return;
   }
   isFetching.value = true;
-  _axios(`products/${category.slug}/`, {
+  _axios(`${prefixUrl.value}products/${category.slug}/`, {
     params,
   })
     .then(({ data }) => {
-      if (categories.value[selectedCategoryIndex].products) {
-        categories.value[selectedCategoryIndex].products = [
-          ...categories.value[selectedCategoryIndex].products,
+      if (categories.value[selectedCategoryIndex][postfixInfo.value]) {
+        categories.value[selectedCategoryIndex][postfixInfo.value] = [
+          ...categories.value[selectedCategoryIndex][postfixInfo.value],
           ...data.results,
         ];
       } else {
-        categories.value[selectedCategoryIndex].products = data.results;
+        categories.value[selectedCategoryIndex][postfixInfo.value] = data.results;
       }
       const url =data.next ? new URL(data.next) : {};
       const cursor = url?.searchParams?.get("cursor");
@@ -304,13 +320,19 @@ function handleInput() {
       (cat) => cat.slug === selectedCategory.value.slug
     ) || 0;
   categories.value[selectedCategoryIndex].cursor = null;
-  delete categories.value[selectedCategoryIndex].products;
+  delete categories.value[selectedCategoryIndex][postfixInfo.value];
 
   debouncedFetch(selectedCategory.value, searchProduct.value);
 }
 
 function navigateToProductsPage() {
-  window.location.href = `/products`
+  if(props.type === WIDE) {
+    window.location.href = `/products`
+  } else if(props.type === TEYES) {
+    window.location.href = `/teyes`
+  } else if(props.type === RED_POWER) {
+    window.location.href = `/redpower`
+  }
 }
 </script>
 

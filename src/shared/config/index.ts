@@ -7,3 +7,7 @@ export const env = {
   IS_PROD_RUNTIME: RUNTIME_MODE === 'production',
   BASE_URL: import.meta.env.VITE_APP_BASE_URL,
 };
+
+export const WIDE = 'wide';
+export const TEYES = 'teyes';
+export const RED_POWER = 'red-power';

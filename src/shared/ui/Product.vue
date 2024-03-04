@@ -13,6 +13,8 @@
 <script>
 import { prettyPrice } from "@shared/libs";
 
+import { WIDE, TEYES, RED_POWER } from '../config';
+
 export default {
   name: "Product",
   props: {
@@ -24,6 +26,10 @@ export default {
       type: Object,
       required: true,
     },
+    type: {
+      type: String, 
+      default: WIDE
+    }
   },
   computed: {
     firstImage() {
@@ -35,7 +41,13 @@ export default {
   methods: {
     prettyPrice,
     navToProduct() {
-      window.location.href = `/product/${this.category.slug}/${this.info.slug}`
+      if(this.type === WIDE) {
+        window.location.href = `/product/${this.category.slug}/${this.info.slug}`
+      } else if(this.type === TEYES) {
+        window.location.href = `/teyes/${this.category.slug}/${this.info.slug}`
+      } else if(this.type === RED_POWER) {
+        window.location.href = `/redpower/${this.category.slug}/${this.info.slug}`
+      }
     },
   },
 };

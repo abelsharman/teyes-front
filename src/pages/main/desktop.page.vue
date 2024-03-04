@@ -13,8 +13,10 @@
         <Benefits class="desktop-wrapper" />
       </div>
       <Services id="services" class="mb-11 mt-8" />
-      <div id="products" class="bg-gray-2 pt-8 pb-20">
+      <div id="products" class="bg-gray-2 pt-8 space-y-20 pb-20">
         <Products class="desktop-wrapper" :is-all-products="false" />
+        <Products class="desktop-wrapper" type="teyes" :is-all-products="false" />
+        <Products class="desktop-wrapper" type="red-power" :is-all-products="false" />
       </div>
       <Works id="works" class="my-14 desktop-wrapper" />
       <ClientOnly>
