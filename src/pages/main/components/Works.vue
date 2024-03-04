@@ -51,13 +51,7 @@ export default defineComponent({
   methods: {
     fetchWorks() {
       this.isLoading = true;
-      _axios("our-works/", {
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-          "Access-Control-Allow-Credentials": true,
-        },
-      })
+      _axios.get("our-works/")
         .then(({ data }) => {
           this.works = data;
           this.isError = false;

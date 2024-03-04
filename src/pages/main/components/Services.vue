@@ -7,9 +7,11 @@
     </p>
     <div class="grid md:grid-cols-4 gap-5 w-max mx-auto">
       <div
+        role="button"
         v-for="service in services"
         :key="service.slug"
         class="duration-200 hover:scale-105"
+        @click="onNavigateToServicePage(service)"
       >
         <div class="bg-gray-2 text-gray-1 rounded-lg pt-6 pl-8 w-[309px] pb-9">
           <p class="mb-6 text-2xl font-bold w-10/12">{{ service.name }}</p>
@@ -51,13 +53,7 @@ export default {
     fetchServices() {
       this.isLoading = true;
 
-      _axios("services/", {
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-          "Access-Control-Allow-Credentials": true,
-        },
-      })
+      _axios.get("services/")
         .then(({ data }) => {
           this.services = data;
           this.isError = false;
@@ -69,6 +65,9 @@ export default {
           this.isLoading = false;
         });
     },
+    onNavigateToServicePage(service) {
+      window.location.href = `/service/${service.slug}`
+    }
   },
 };
 </script>
