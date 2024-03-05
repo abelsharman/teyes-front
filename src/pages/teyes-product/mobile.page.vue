@@ -9,7 +9,7 @@
         <img
           v-if="firstImage"
           class="w-full h-[250px] object-cover"
-          :src="firstImage.image"
+          :src="firstImage.image || firstImage.image_url"
           alt=""
           loading="lazy"
         />

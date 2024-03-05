@@ -7,9 +7,9 @@
     <main class="mt-[55px] flex-1 mb-8 px-4">
       <template v-if="!isError">
         <img
-          v-if="info.image"
+          v-if="info"
           class="w-full h-[250px] object-cover"
-          :src="info.image"
+          :src="info.image  || info.image_url"
           alt=""
           loading="lazy"
         />

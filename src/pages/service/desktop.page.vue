@@ -6,9 +6,9 @@
     <main class="flex-1">
       <div v-if="!isError" class="flex space-x-28 flex-1 desktop-wrapper mt-14">
         <img
-          v-if="info.image"
+          v-if="info"
           class="w-[433px] h-[320px] object-cover"
-          :src="info.image"
+          :src="info.image || info.image_url"
           alt=""
           loading="lazy"
         />
