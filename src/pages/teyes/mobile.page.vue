@@ -5,7 +5,7 @@
       @onNavToWhatsapp="onNavToWhatsapp"
     />
     <main class="mt-[55px] flex-1 mb-8 pr-4">
-      <Products />
+      <Products type="teyes" />
     </main>
     <div class="bg-black-1 pb-12 pt-10 pl-4">
       <VFooter />

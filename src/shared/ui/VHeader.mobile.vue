@@ -132,7 +132,6 @@ import { ref } from "vue";
 const isHeaderVisible = ref(false);
 
 const setIsHeaderVisible = (element) => {
-  console.log(element);
   if(element && window.location.pathname !== '/') {
     return window.location.href = '/';    
   }

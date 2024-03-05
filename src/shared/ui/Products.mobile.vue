@@ -1,7 +1,9 @@
 <template>
   <div v-if="!isError">
     <div class="flex px-4 items-center justify-between">
-      <p class="text-gray-1 text-center text-3xl font-bold">Товары</p>
+      <p class="text-gray-1 text-center text-3xl font-bold">
+        {{ type === WIDE ? 'WIDE' : type === TEYES ? 'TEYES' : 'RED POWER' }}
+      </p>
       <button
         v-if="!isAllProducts"
         type="button"
@@ -23,17 +25,18 @@
       />
     </div>
     <div class="space-y-7 mt-6 pl-4">
-      <div v-for="category in filteredCategories" :key="category.slug">
+      <div v-for="category in slicedFilteredCategories" :key="category.slug">
         <template v-if="category.isVisible">
-          <p class="mb-6 text-red-1 text-lg font-bold">{{ category.name }}</p>
+          <p v-if="isAllProducts" class="mb-6 text-red-1 text-lg font-bold">{{ category.name }}</p>
           <div
             class="w-full overflow-x-auto overflow-y-hidden invisible-scrollbar flex space-x-5"
           >
             <Product
-              v-for="product in category.products"
+              v-for="product in category[postfixInfo]"
               :key="product.slug"
               :info="product"
               :category="category"
+              :type="type"
               class="w-[309px] min-w-[309px]"
             />
             <InfiniteScroll :is-fetching="isFetching" @onIntersect="onIntersect(category)" />
@@ -50,6 +53,7 @@ import { ref, onBeforeMount, computed } from "vue";
 import { _axios, categoriesData, simpleCategoriesData, productsData } from "@shared/libs";
 import { InfiniteScroll } from "@shared/ui/index.desktop.ts";
 
+import { WIDE, TEYES, RED_POWER } from '../config';
 import Product from "./Product.vue";
 
 const props = defineProps({
@@ -57,16 +61,24 @@ const props = defineProps({
     type: Boolean,
     default: true,
   },
+  type: {
+    type: String, 
+    default: WIDE
+  }
 });
 
 const searchProduct = ref(null);
 const categories = ref([]);
+const isError = ref(false);
+const isLoading = ref(false);
+const isFetching = ref(false);
+
 const filteredCategories = computed(() => {
   if (props.isAllProducts) {
     return categories.value.map((c) => {
       return {
         ...c,
-        isVisible: c.products?.length > 0,
+        isVisible: c[postfixInfo.value]?.length > 0,
       };
     });
   }
@@ -76,9 +88,10 @@ const filteredCategories = computed(() => {
     }
   });
 });
-const isError = ref(false);
-const isLoading = ref(false);
-const isFetching = ref(false);
+
+const slicedFilteredCategories = computed(() => props.isAllProducts ? filteredCategories.value : filteredCategories.value.slice(0,1))
+const prefixUrl = computed(() => props.type === WIDE ? '' : props.type === TEYES ? 'teyes/' : 'redpower/')
+const postfixInfo = computed(() => props.type === WIDE ? 'products' : props.type === TEYES ? 'teyes' : 'redpower')
 
 onBeforeMount(() => {
   if (props.isAllProducts) {
@@ -90,7 +103,7 @@ onBeforeMount(() => {
 
 function fetchCategories() {
   isLoading.value = true;
-  _axios("categories/")
+  _axios(`${prefixUrl.value}categories/`)
     .then(({ data }) => {
       categories.value = data;
       isError.value = false;
@@ -106,7 +119,7 @@ function fetchCategories() {
 
 function fetchSimpleCategories(searchText) {
   isLoading.value = true;
-  _axios("simple-categories/")
+  _axios(`${prefixUrl.value}simple-categories/`)
     .then(({ data }) => {
       const fetchPromises = data.map(category => fetchProductsByCategorySlug(category, searchText));
 
@@ -115,7 +128,7 @@ function fetchSimpleCategories(searchText) {
           categories.value = categoryProductPairs.map(pair => ({
             ...pair.category,
             cursor: pair.cursor,
-            products: pair.products,
+            [postfixInfo.value]: pair[postfixInfo.value],
             isLastPage: pair.isLastPage
           }));
           isError.value = false;
@@ -137,28 +150,28 @@ function fetchProductsByCategorySlug(category, searchText) {
   if (category.cursor) {
     params.cursor = category.cursor;
   }
-  if(category.products && category.isLastPage) {
+  if(category[postfixInfo.value] && category.isLastPage) {
     return;
   }
   isFetching.value = true;
-  return _axios(`products/${category.slug}`, {
+  return _axios(`${prefixUrl.value}products/${category.slug}`, {
     params
   })
     .then(({ data }) => {
       isFetching.value = false;
-      const products = category.products ? [ ...category.products, ...data.results ] : data.results;
+      const products = category[postfixInfo.value] ? [ ...category[postfixInfo.value], ...data.results ] : data.results;
       const url = data.next ? new URL(data.next) : {};
       const cursor = url?.searchParams?.get("cursor");
-      if(category.products) {
-        category.products = products;
+      if(category[postfixInfo.value]) {
+        category[postfixInfo.value] = products;
         category.cursor = url?.searchParams?.get("cursor");
         category.isLastPage = cursor ? false : true;
       }
-      return { category, products, cursor: url?.searchParams?.get("cursor"), isLastPage: cursor ? false : true };
+      return { category, [postfixInfo.value]: products, cursor: url?.searchParams?.get("cursor"), isLastPage: cursor ? false : true };
     })
     .catch(error => {
       console.error(`Error fetching products for category ${category.name}: ${error.message}`);
-      return { category, products: [], cursor: null, isLastPage: true };
+      return { category, [postfixInfo.value]: [], cursor: null, isLastPage: true };
     });
 }
 
@@ -195,6 +208,12 @@ function onIntersect(category) {
 }
 
 function navigateToProductsPage() {
-  window.location.href = `/products`
+  if(props.type === WIDE) {
+    window.location.href = `/products`
+  } else if(props.type === TEYES) {
+    window.location.href = `/teyes`
+  } else if(props.type === RED_POWER) {
+    window.location.href = `/redpower`
+  }
 }
 </script>
