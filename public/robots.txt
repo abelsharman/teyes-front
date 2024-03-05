@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://metamed.kz/sitemap.xml
+Sitemap: https://garagepro.kz/media/sitemaps/sitemap_index.xml
