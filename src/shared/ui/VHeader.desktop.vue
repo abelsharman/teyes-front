@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="opacityAnimaton">
     <div
       class="flex items-center w-full justify-between py-3 border-b border-gray-1 border-opacity-10"
     >

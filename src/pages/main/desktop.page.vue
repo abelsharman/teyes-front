@@ -63,5 +63,24 @@ export default {
       );
     },
   },
+  mounted() {
+    const intersectionCallback = (entries) => {
+      for (const entry of entries) { 
+        if (entry.isIntersecting) { 
+          setTimeout(() => {
+            entry.target.classList.add('opacityAnimaton'); 
+          }, 300);
+        }
+      }
+    }
+    const observer = new IntersectionObserver(intersectionCallback);
+    observer.observe(document.querySelector('#services'));
+    observer.observe(document.querySelector('#products'));
+    observer.observe(document.querySelector('#works'));
+    setTimeout(() => {
+      observer.observe(document.querySelector('#contacts'));
+    }, 1000);
+    observer.observe(document.querySelector('#questions'));
+  }
 };
 </script>

@@ -148,3 +148,61 @@
     transform: translateY(-20px);
   }
 }
+
+@keyframes opacityAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.opacityAnimaton {
+  animation: 1.7s ease opacityAnimation;
+}
+
+@keyframes leftToRightAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.leftToRightAnimation {
+  animation: 1s ease leftToRightAnimate;
+}
+
+@keyframes rightToLeftAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.rightToLeftAnimation {
+  animation: 1s ease rightToLeftAnimate;
+}
+
+@keyframes topToBottomAnimate {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.topToBottomAnimation {
+  animation: 0.5s ease topToBottomAnimate;
+}
