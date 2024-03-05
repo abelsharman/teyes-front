@@ -49,6 +49,7 @@ export async function render(pageContext) {
       <link rel="icon" href="/favicon.ico">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="google-site-verification" content="T9vQmvrpGhk14UUVzsHfSuGPZZhAfzQkr_JYaGnw8Kw" />
+      <meta name="yandex-verification" content="6004838a7ee6fcbb" />
       ${dangerouslySkipEscape(rawMetaInfo?.robots ?? '')}
       ${dangerouslySkipEscape(rawMetaInfo?.description)}
       ${dangerouslySkipEscape(rawMetaInfo?.title)}
