@@ -27,8 +27,8 @@
           />
         </svg>
         <div class="flex flex-col leading-5">
-          <a href="tel:+77756189915">+7 (775) 61 89 915</a>
-          <a href="tel:+77753401682" class="mt-1">+7 (775) 34 01 682</a>
+          <a href="tel:+77756189915">+7 (775) 618 99 15</a>
+          <a href="tel:+77753401682" class="mt-1">+7 (775) 340 16 82</a>
         </div>
       </div>
       <div class="flex md:space-x-6 space-x-4 mb-8 md:mb-12 text-lg">
