@@ -64,23 +64,56 @@ export default {
     },
   },
   mounted() {
-    const intersectionCallback = (entries) => {
+    const intersectionCallbackRightToLeft = (entries) => {
       for (const entry of entries) { 
         if (entry.isIntersecting) { 
           setTimeout(() => {
-            entry.target.classList.add('opacityAnimaton'); 
-          }, 300);
+            entry.target.classList.add('rightToLeftAnimation'); 
+          }, 1000);
         }
       }
     }
-    const observer = new IntersectionObserver(intersectionCallback);
-    observer.observe(document.querySelector('#services'));
-    observer.observe(document.querySelector('#products'));
-    observer.observe(document.querySelector('#works'));
-    setTimeout(() => {
-      observer.observe(document.querySelector('#contacts'));
-    }, 1000);
-    observer.observe(document.querySelector('#questions'));
+    const intersectionCallbackLeftToRight = (entries) => {
+      for (const entry of entries) { 
+        if (entry.isIntersecting) { 
+          setTimeout(() => {
+            entry.target.classList.add('leftToRightAnimation'); 
+          }, 1000);
+        }
+      }
+    }
+
+    const intersectionCallbackWhyWeBlock = (entries) => {
+      for (const entry of entries) { 
+        if (entry.isIntersecting) { 
+          setTimeout(() => {
+            const rightToLeftAnimationItems = document.querySelectorAll('#why-we .rightToLeftAnimationStart');
+            for (const item of rightToLeftAnimationItems) {
+              item.classList.add('rightToLeftAnimation')
+            }
+            const observerLeftToRightItems = document.querySelectorAll('#why-we .leftToRightAnimationStart');
+            for (const item of observerLeftToRightItems) {
+              item.classList.add('leftToRightAnimation')
+            }
+          }, );
+        }
+      }
+    }
+
+    const observerRightToLeft = new IntersectionObserver(intersectionCallbackRightToLeft);
+    const observerLeftToRight = new IntersectionObserver(intersectionCallbackLeftToRight);
+    const observerWhyWe = new IntersectionObserver(intersectionCallbackWhyWeBlock);
+
+    document.querySelector('#main .rightToLeftAnimationStart').classList.add('rightToLeftAnimation'); 
+    const observerLeftToRightMainItems = document.querySelectorAll('#main .leftToRightAnimationStart');
+    for (const item of observerLeftToRightMainItems) {
+      item.classList.add('leftToRightAnimation'); 
+    }
+
+    const whyWeBlock = document.querySelector('#why-we');
+    observerWhyWe.observe(whyWeBlock)
+
+
   }
 };
 </script>

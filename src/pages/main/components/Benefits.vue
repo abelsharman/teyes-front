@@ -6,7 +6,7 @@
     <div class="flex md:space-x-12 justify-center md:justify-normal md:items-start items-center md:w-max w-full flex-col md:flex-row md:mx-auto">
       <div class="space-y-6 w-[280px] hover:bg-gray-3 rounded-xl py-3 px-4 duration-200 flex items-center flex-col">
         <svg
-          class="leftToRightAnimation"
+          class="leftToRightAnimationStart"
           xmlns="http://www.w3.org/2000/svg"
           width="100"
           height="100"
@@ -22,7 +22,7 @@
         </svg>
         <div class="text-center space-y-4">
           <p class="text-red-1 text-2xl font-bold">Качество</p>
-          <p class="text-base font-medium rightToLeftAnimation">
+          <p class="text-base font-medium rightToLeftAnimationStart">
             Получайте надежные решения от мировых лидеров. На рынке с 2010 года,
             мы продали более 12 500 магнитол. Работаем с профессионалами, знаем
             свой товар вдоль и поперек.
@@ -31,7 +31,7 @@
       </div>
       <div class="space-y-6 w-[280px] hover:bg-gray-3 rounded-xl py-3 px-4 duration-200 flex items-center flex-col">
         <svg
-          class="leftToRightAnimation"
+          class="leftToRightAnimationStart"
           xmlns="http://www.w3.org/2000/svg"
           width="100"
           height="100"
@@ -61,7 +61,7 @@
         </svg>
         <div class="text-center space-y-4">
           <p class="text-red-1 text-2xl font-bold">Гарантия 1 год</p>
-          <p class="text-base font-medium rightToLeftAnimation">
+          <p class="text-base font-medium rightToLeftAnimationStart">
             Предоставляем гарантию от производителя. Перед отправкой все
             могнитолы проверяются специалистами нашего магазина.
           </p>
@@ -69,7 +69,7 @@
       </div>
       <div class="space-y-6 w-[280px] hover:bg-gray-3 rounded-xl py-3 px-4 duration-200 flex items-center flex-col">
         <svg
-          class="leftToRightAnimation"
+          class="leftToRightAnimationStart"
           xmlns="http://www.w3.org/2000/svg"
           width="80"
           height="80"
@@ -91,7 +91,7 @@
         </svg>
         <div class="text-center space-y-4">
           <p class="text-red-1 text-2xl font-bold">Установка под ключ</p>
-          <p class="text-base font-medium rightToLeftAnimation">
+          <p class="text-base font-medium rightToLeftAnimationStart">
             Если вы в Алматы, доверьте нам установку вашей магнитолы. Мы быстро
             и качественно выполним все работы, начиная с доставки и заканчивая
             установкой.
