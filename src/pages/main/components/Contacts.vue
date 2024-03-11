@@ -5,12 +5,13 @@
       :class="blockClass"
     >
       <p
-        class="md:text-5xl text-3xl font-bold text-center md:text-left md:mb-12 mb-10"
+        class="md:text-5xl contact-title text-3xl font-bold text-center md:text-left md:mb-12 mb-10"
       >
         Контакты
       </p>
       <div class="flex text-lg md:space-x-6 space-x-4 mb-8 md:mb-10">
         <svg
+          class="contact-image"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -26,13 +27,14 @@
             fill="#333333"
           />
         </svg>
-        <div class="flex flex-col leading-5">
+        <div class="flex flex-col leading-5 contact-text">
           <a href="tel:+77756189915">+7 (775) 618 99 15</a>
           <a href="tel:+77753401682" class="mt-1">+7 (775) 340 16 82</a>
         </div>
       </div>
       <div class="flex md:space-x-6 space-x-4 mb-8 md:mb-12 text-lg">
         <svg
+          class="contact-image"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -44,11 +46,11 @@
             fill="#333333"
           />
         </svg>
-        <p>г. Алматы, ул. Тургут озала 260/1</p>
+        <p class="contact-text">г. Алматы, ул. Тургут озала 260/1</p>
       </div>
       <div class="flex md:space-x-6 space-x-4 text-lg">
         <svg
-          class="w-6 h-6 min-w-6"
+          class="w-6 h-6 min-w-6 contact-image"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -60,7 +62,7 @@
             fill="#333333"
           />
         </svg>
-        <p>График работы: понедельник-суббота, с 10:00-20:00</p>
+        <p class="contact-text">График работы: понедельник-суббота, с 10:00-20:00</p>
       </div>
     </div>
     <ClientOnly>

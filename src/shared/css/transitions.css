@@ -204,5 +204,5 @@
 }
 
 .topToBottomAnimation {
-  animation: 0.5s ease topToBottomAnimate;
+  animation: 1s ease topToBottomAnimate;
 }

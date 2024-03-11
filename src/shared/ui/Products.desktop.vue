@@ -1,6 +1,6 @@
 <template>
   <div v-if="!isError">
-    <div class="flex items-center justify-between">
+    <div class="flex items-center products-title justify-between">
       <p class="text-gray-1 text-center text-[40px] font-bold">
         {{ type === WIDE ? 'WIDE' : type === TEYES ? 'TEYES' : 'RED POWER' }}
       </p>

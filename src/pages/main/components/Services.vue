@@ -1,7 +1,7 @@
 <template>
   <div v-if="!isError">
     <p
-      class="text-center text-gray-1 font-bold md:text-[40px] text-3xl md:mb-8 mb-6"
+      class="text-center services-title text-gray-1 font-bold md:text-[40px] text-3xl md:mb-8 mb-6"
     >
       Наши услуги
     </p>
@@ -10,7 +10,7 @@
         role="button"
         v-for="service in services"
         :key="service.slug"
-        class="duration-200 hover:scale-105"
+        class="duration-200 service-item hover:scale-105"
         @click="onNavigateToServicePage(service)"
       >
         <div class="bg-gray-2 text-gray-1 rounded-lg pt-6 pl-8 w-[309px] pb-9">

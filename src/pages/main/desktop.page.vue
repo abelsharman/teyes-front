@@ -14,15 +14,15 @@
       </div>
       <Services id="services" class="mb-11 mt-8" />
       <div id="products" class="bg-gray-2 pt-8 space-y-20 pb-20">
-        <Products class="desktop-wrapper" :is-all-products="false" />
-        <Products class="desktop-wrapper" type="teyes" :is-all-products="false" />
-        <Products class="desktop-wrapper" type="red-power" :is-all-products="false" />
+        <Products id="products-1" class="desktop-wrapper" :is-all-products="false" />
+        <Products id="products-2" class="desktop-wrapper" type="teyes" :is-all-products="false" />
+        <Products id="products-3" class="desktop-wrapper" type="red-power" :is-all-products="false" />
       </div>
       <Works id="works" class="my-14 desktop-wrapper" />
       <ClientOnly>
         <Contacts id="contacts" class="w-full" />
       </ClientOnly>
-      <Questions @onNavToWhatsapp="onNavToWhatsapp" />
+      <Questions id="questions" @onNavToWhatsapp="onNavToWhatsapp" />
     </main>
     <div class="bg-black-1 py-12">
       <VFooter class="desktop-wrapper" />
@@ -69,7 +69,7 @@ export default {
         if (entry.isIntersecting) { 
           setTimeout(() => {
             entry.target.classList.add('rightToLeftAnimation'); 
-          }, 1000);
+          }, 0);
         }
       }
     }
@@ -78,11 +78,10 @@ export default {
         if (entry.isIntersecting) { 
           setTimeout(() => {
             entry.target.classList.add('leftToRightAnimation'); 
-          }, 1000);
+          }, 0);
         }
       }
     }
-
     const intersectionCallbackWhyWeBlock = (entries) => {
       for (const entry of entries) { 
         if (entry.isIntersecting) { 
@@ -99,10 +98,20 @@ export default {
         }
       }
     }
+    const intersectionCallbackTopToBottom = (entries) => {
+      for (const entry of entries) { 
+        if (entry.isIntersecting) { 
+          setTimeout(() => {
+            entry.target.classList.add('topToBottomAnimation'); 
+          });
+        }
+      }
+    }
 
     const observerRightToLeft = new IntersectionObserver(intersectionCallbackRightToLeft);
     const observerLeftToRight = new IntersectionObserver(intersectionCallbackLeftToRight);
     const observerWhyWe = new IntersectionObserver(intersectionCallbackWhyWeBlock);
+    const observerTopToBottom = new IntersectionObserver(intersectionCallbackTopToBottom);
 
     document.querySelector('#main .rightToLeftAnimationStart').classList.add('rightToLeftAnimation'); 
     const observerLeftToRightMainItems = document.querySelectorAll('#main .leftToRightAnimationStart');
@@ -110,9 +119,36 @@ export default {
       item.classList.add('leftToRightAnimation'); 
     }
 
-    const whyWeBlock = document.querySelector('#why-we');
-    observerWhyWe.observe(whyWeBlock)
+    observerWhyWe.observe(document.querySelector('#why-we'));
+    observerTopToBottom.observe(document.querySelector('#services .services-title'))
+    observerTopToBottom.observe(document.querySelector('#products-1 .products-title'))
+    observerTopToBottom.observe(document.querySelector('#products-2 .products-title'))
+    observerTopToBottom.observe(document.querySelector('#products-3 .products-title'))
+    observerTopToBottom.observe(document.querySelector('#works .works-title'))
+    observerTopToBottom.observe(document.querySelector('#questions .question-title'))
+    observerTopToBottom.observe(document.querySelector('#questions .question-description'))
+    observerTopToBottom.observe(document.querySelector('#questions .question-button'))
 
+
+   setTimeout(() => {
+      observerTopToBottom.observe(document.querySelector('#contacts .contact-title'))
+      const contactImageBlocks = document.querySelectorAll('#contacts .contact-image');
+      for(const item of contactImageBlocks) {
+        observerLeftToRight.observe(item);
+      }
+
+      const contactTextBlocks = document.querySelectorAll('#contacts .contact-text');
+      for(const item of contactTextBlocks) {
+        observerRightToLeft.observe(item);
+      }
+   }, 1000);
+
+    setTimeout(() => {
+      const serviceItemsBlocks = document.querySelectorAll('#services .service-item');
+        for(const item of serviceItemsBlocks) {
+          observerTopToBottom.observe(item);
+      }
+    }, 2000);
 
   }
 };
