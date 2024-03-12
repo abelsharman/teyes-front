@@ -55,7 +55,7 @@ const schema = {
       doc: 'Time to store cached prefetch data for SSR',
       format: 'Number',
       env: 'SSR_PREFETCH_CACHE_TTL_MS',
-      default: 1,
+      default: 1000,
     },
   },
   base_site_url: {
