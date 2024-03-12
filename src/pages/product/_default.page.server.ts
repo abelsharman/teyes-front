@@ -20,15 +20,13 @@ export async function getServerSideProps(pageContext: any) {
     info,
     isError,
   };
-
-  return Promise.resolve();
 }
 
-export function getRawMetaInfo() {
+export function getRawMetaInfo(props: any) {
   return {
     title:
-      '<title>Главная страница</title>',
+      `<title>${props.info.name}</title>`,
     description:
-      '<meta name="description" content="Главная страница">',
+      `<meta name="description" content="${props.info.name}">`,
   };
 }
