@@ -13,7 +13,7 @@ function getSSRCacheKey(useragent) {
  * @param {Awaited<ReturnType<import('vite-plugin-ssr').renderPage>>['httpResponse']} httpResponse
  */
 function shouldCache(httpResponse) {
-  return httpResponse.statusCode === 200;
+  return httpResponse.statusCode === 2000;
 }
 
 function get404CacheKey() {
