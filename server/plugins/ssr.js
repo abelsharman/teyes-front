@@ -11,12 +11,12 @@ import { config } from '../config/index.js';
  */
 const ssrCache = new LRUCache({
   ttl: config.get('ssr.cache_ttl_ms'), //21600000
-  max: 100,
+  max: 0,
 });
 
 const ssrPrefetchCache = new LRUCache({
   ttl: config.get('ssr.prefetch_cache_ttl_ms'),
-  max: 100,
+  max: 0,
 });
 
 async function render(pageContextInit) {

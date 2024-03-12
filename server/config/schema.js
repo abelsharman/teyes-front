@@ -49,13 +49,13 @@ const schema = {
       doc: 'Time to store cached SSR HTML',
       format: 'Number',
       env: 'SSR_CACHE_TTL_MS',
-      default: 10000,
+      default: 0,
     },
     prefetch_cache_ttl_ms: {
       doc: 'Time to store cached prefetch data for SSR',
       format: 'Number',
       env: 'SSR_PREFETCH_CACHE_TTL_MS',
-      default: 1800000,
+      default: 0,
     },
   },
   base_site_url: {
