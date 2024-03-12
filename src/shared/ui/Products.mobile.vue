@@ -1,7 +1,7 @@
 <template>
   <div v-if="!isError">
     <div class="flex px-4 items-center justify-between">
-      <p class="text-gray-1 text-center text-3xl font-bold">
+      <p class="text-gray-1 products-title text-center text-3xl font-bold">
         {{ type === WIDE ? 'WIDE' : type === TEYES ? 'TEYES' : 'RED POWER' }}
       </p>
       <button
@@ -37,7 +37,7 @@
               :info="product"
               :category="category"
               :type="type"
-              class="w-[309px] min-w-[309px]"
+              class="w-[309px] product-item min-w-[309px]"
             />
             <InfiniteScroll :is-fetching="isFetching" @onIntersect="onIntersect(category)" />
             </div

@@ -164,7 +164,7 @@
 
 @keyframes leftToRightAnimate {
   from {
-    opacity: 0;
+    opacity: 0.3;
     transform: translateX(-20px);
   }
   to {
@@ -174,12 +174,12 @@
 }
 
 .leftToRightAnimation {
-  animation: 1s ease leftToRightAnimate;
+  animation: 1.5s ease leftToRightAnimate;
 }
 
 @keyframes rightToLeftAnimate {
   from {
-    opacity: 0;
+    opacity: 0.3;
     transform: translateX(20px);
   }
   to {
@@ -189,12 +189,12 @@
 }
 
 .rightToLeftAnimation {
-  animation: 1s ease rightToLeftAnimate;
+  animation: 1.5s ease rightToLeftAnimate;
 }
 
 @keyframes topToBottomAnimate {
   from {
-    opacity: 0;
+    opacity: 0.3;
     transform: translateY(-20px);
   }
   to {
@@ -204,5 +204,5 @@
 }
 
 .topToBottomAnimation {
-  animation: 1s ease topToBottomAnimate;
+  animation: 1.5s ease topToBottomAnimate;
 }

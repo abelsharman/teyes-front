@@ -5,7 +5,7 @@
     </div>
     <main class="flex-1 pt-2 pb-10 bg-gray-2">
       <div class="desktop-wrapper">
-        <Products />
+        <Products id="products" />
       </div>
     </main>
     <div class="bg-black-1 py-12">
@@ -23,6 +23,25 @@ export default {
     VHeader,
     VFooter,
     Products,
+  },
+  mounted() {
+    const intersectionCallbackTopToBottom = (entries) => {
+      for (const entry of entries) { 
+        if (entry.isIntersecting) { 
+          setTimeout(() => {
+            entry.target.classList.add('topToBottomAnimation'); 
+          });
+        }
+      }
+    }
+    const observerTopToBottom = new IntersectionObserver(intersectionCallbackTopToBottom);
+
+    setTimeout(() => {
+      const serviceItemsBlocks = document.querySelectorAll('#products .product-item');
+      for(const item of serviceItemsBlocks) {
+        observerTopToBottom.observe(item);
+      }
+    }, 200);
   },
   methods: {
     onNavToWhatsapp() {

@@ -5,7 +5,7 @@
       @onNavToWhatsapp="onNavToWhatsapp"
     />
     <main class="mt-[55px] flex-1 mb-8 pr-4">
-      <Products />
+      <Products id="products" />
     </main>
     <div class="bg-black-1 pb-12 pt-10 pl-4">
       <VFooter />
@@ -22,6 +22,25 @@ export default {
     VHeader,
     VFooter,
     Products,
+  },
+  mounted() {
+    const intersectionCallbackTopToBottom = (entries) => {
+      for (const entry of entries) { 
+        if (entry.isIntersecting) { 
+          setTimeout(() => {
+            entry.target.classList.add('topToBottomAnimation'); 
+          });
+        }
+      }
+    }
+    const observerTopToBottom = new IntersectionObserver(intersectionCallbackTopToBottom);
+
+    setTimeout(() => {
+      const serviceItemsBlocks = document.querySelectorAll('#products .product-item');
+      for(const item of serviceItemsBlocks) {
+        observerTopToBottom.observe(item);
+      }
+    }, 200);
   },
   methods: {
     onNavToWhatsapp() {

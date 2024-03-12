@@ -130,7 +130,7 @@
             <Product
               v-for="product in products"
               :key="product.slug"
-              class="w-11/12 mx-auto hover:scale-105 duration-200"
+              class="w-11/12 mx-auto product-item hover:scale-105 duration-200"
               :class="{
                 'first:mx-0': !isAllProducts,
               }"

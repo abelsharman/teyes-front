@@ -8,12 +8,12 @@
       <template v-if="!isError">
         <img
           v-if="firstImage"
-          class="w-full h-[250px] object-cover"
+          class="w-full topToBottomAnimation h-[250px] object-cover"
           :src="firstImage.image || firstImage.image_url"
           alt=""
           loading="lazy"
         />
-        <div class="text-gray-1 mt-7 space-y-4">
+        <div class="text-gray-1 topToBottomAnimation mt-7 space-y-4">
           <h1 class="font-bold text-3xl">{{ info.name }}</h1>
           <!-- <h2 class="text-base font-semibold text-opacity-80">Автомагнитолы</h2> -->
           <p

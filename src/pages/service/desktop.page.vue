@@ -7,12 +7,12 @@
       <div v-if="!isError" class="flex space-x-28 flex-1 desktop-wrapper mt-14">
         <img
           v-if="info"
-          class="w-[433px] h-[320px] object-cover"
+          class="w-[433px] leftToRightAnimation h-[320px] object-cover"
           :src="info.image || info.image_url"
           alt=""
           loading="lazy"
         />
-        <div class="text-gray-1 pb-10 space-y-4">
+        <div class="text-gray-1 pb-10 space-y-4 rightToLeftAnimation">
           <h1 class="font-bold text-4xl">{{ info.name }}</h1>
           <!-- <h2 class="text-lg font-semibold text-opacity-80">Автомагнитолы</h2> -->
           <p class="text-opacity-80 text-lg leading-6" v-html="info.description">
