@@ -2,7 +2,7 @@
   <div class="md:flex space-y-7 md:space-y-0 justify-between text-white">
     <a href="/"
       ><img
-        src="../assets/logo.png"
+        src="../assets/logo.svg"
         class="w-[200px] h-10"
         width="200"
         height="40"

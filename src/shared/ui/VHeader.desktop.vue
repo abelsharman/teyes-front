@@ -75,7 +75,16 @@
     </div>
 
     <div class="flex items-center justify-between py-4 w-full">
-      <p>ЛОГО</p>
+      <a href="/"
+      ><img
+        src="../assets/logo.svg"
+        class="w-[200px] h-10"
+        width="200"
+        height="40"
+        alt="логотип"
+        loading="lazy"
+      />
+    </a>
       <div
         class="flex items-center space-x-10 text-gray-1 text-base font-medium"
       >
