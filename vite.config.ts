@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
 
   const baseServerUrl = '/';
 
-  const baseAssetsUrl = 'https://garagepro.kz/static-front/'
+  const baseAssetsUrl = '/'
     // process.env.VITE_APP_RUNTIME_MODE === 'development'
     //   ? '/'
     //   : 'https://garagepro.kz/static/';
